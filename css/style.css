@@ -138,6 +138,12 @@ html,body{
 	padding: 1em;
 }
 
+.ehdiv{
+	position: relative;
+	bottom: 30em;
+	height: 13em;
+}
+
 .skillpics{
 	height: 10em;
 	width: 10em;
@@ -151,6 +157,7 @@ html,body{
 	height: 13em;
 }
 
+
 #educationfont{
 	font-size: 1.15em;
 	font-family: lucida console;
@@ -158,6 +165,8 @@ html,body{
 
 li{
 	color:white;
+	font-size: 1.15em;
+	font-family: lucida console;
 }
 
 .divcontainer{
