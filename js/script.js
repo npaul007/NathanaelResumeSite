@@ -1,10 +1,12 @@
 $(document).ready(function(){
 	$('.educationdiv').hide();
+	$('.ehdiv').hide();
 
 	$('.skills').click(function(){
 		fadeToggle('.skills');
 		fadeToNone('.educationdiv');
 		fadeToNone('.employmenthistorydiv');
+		fadeToNone('.ehdiv');
 		fadeToSomething('.skillsdiv')
 		$('.divcontainer').css('background-color','#336699');
 	});
@@ -12,6 +14,7 @@ $(document).ready(function(){
 	$('.education').click(function(){
 		fadeToggle('.education');
 		fadeToNone('.skillsdiv');
+		fadeToNone('.ehdiv');
 		$('.educationdiv').show();
 		fadeToSomething('.educationdiv');
 		$('.divcontainer').css('background-color','#334D66');
@@ -21,6 +24,8 @@ $(document).ready(function(){
 		fadeToggle('.employmenthistory');
 		fadeToNone('.educationdiv');
 		fadeToNone('.skillsdiv')
+		$('.ehdiv').show();
+		fadeToSomething('.ehdiv');
 		$('.divcontainer').css('background-color','#7575D1');
 	});
 });
