@@ -1,1 +1,178 @@
 /* All style should go in this document. */
+.mypic{
+	height: 15em;
+	width: 15em;
+
+	position: relative;
+	right: -68em;
+	bottom: 6em;
+
+	border-radius: .2em;
+	border:.5em solid #7575D1;
+}
+
+.mainpgh1{
+	position: relative;
+	top:0em;
+	left:.2em;
+
+	height: 1.25em; 
+	width: 12em;
+
+	font-family: lucida console;
+	font-size: 3em;
+	color:white;
+
+	background-color: #333399;
+
+	border-radius: .1em;
+	padding:.4em;
+}
+
+.myinspiration{
+	font-family: consolas;
+	font-size: 19px;
+	color:white;
+
+	height: 8em;
+	width: 68em;
+
+	position: relative;
+	bottom: 12em;
+	left: 0em;
+
+	padding:1.2em;
+
+	background-color: #336699;
+
+}
+
+.myinfo{
+	position: relative;
+	bottom:13em;
+
+	font-family: consolas;
+	font-size: 20px;
+	color:white;
+
+	width:50em;
+	height: 7.5em;
+
+	padding-top: 1em;
+	padding-left: 1em;
+
+	background-color:#334D66 ;
+}
+
+a:hover{
+	color:#00FA9A;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+html,body{
+	height: 40em;
+    padding: 1em;
+}
+
+.skills{
+	background-color:#336699;
+	width:8em;
+	height: 4em;
+
+	position:relative;
+	bottom: 10em;
+
+	font-family: consolas;
+	font-size: 20px;
+	color:white;
+
+	padding-left: 3.5em;
+	padding-top: .8em;
+}
+.education{
+	background-color:#334D66;
+	width:8.8em;
+	height: 3.8em;
+
+	position: relative;
+	bottom: 14.8em;
+	right: -11em;
+
+	font-family: consolas;
+	font-size: 20px;
+	color:white;
+
+	padding-left: 3em;
+	padding-top: 1em;
+}
+
+.employmenthistory{
+	background-color: #7575D1;
+	height:.8em;
+	width: 8.8em;
+
+	position:relative;
+	right:-22.5em;
+	bottom: 19.55em;
+	
+	padding-top: .5em;
+	padding-left: 3em;
+	padding-bottom: 3.5em;
+
+	font-family: consolas;
+	font-size: 20px;
+	color:white;
+}
+
+.bgcolor{
+	background-color: #00FA9A;
+}
+
+.skillsdiv{
+	width: 70em;
+	height: 13em;
+	padding: 1em;
+}
+
+.skillpics{
+	height: 10em;
+	width: 10em;
+	padding: .5em;
+	border-radius: 1em;
+}
+
+.educationdiv{
+	position: relative;
+	top: -15em;
+	height: 13em;
+}
+
+#educationfont{
+	font-size: 1.15em;
+	font-family: lucida console;
+}
+
+li{
+	color:white;
+}
+
+.divcontainer{
+	width:70em;
+	height: 13em;
+
+	position: relative;
+	bottom:24.5em;
+
+	background-color: #336699;
+
+	padding: 1em;
+}
+@media screen and (max-width:320px) {
+	.mainpgh1{
+		background-color: red;
+	}
+}
