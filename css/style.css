@@ -2,42 +2,97 @@
 	padding-top: 5em;
 }
 
-#row1{
-	
+a, a:visited, a:hover, a:active,a:after {
+    text-decoration:none;
+}
+
+#navbar-style{
+	background: purple;
+	opacity: .85;
+	height: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 1.3em;
+}
+
+#navbar-style>a{
+	color:white;
+	padding-right: 2em;
 }
 
 #row2,#row3{
-	border-bottom: .1em solid black;
+	border-bottom: .1em solid #FFFFEE;
 }
 
-#inspiration{
-	padding-bottom: 1em;
+#jumbo{
+	background-image:url("C:/Users/8510p/A100/NathanaelResumeSite/image/codebackground.jpg"); 
+	background-repeat:no-repeat; 
+	background-size:100% 100%;
 }
 
 #mypicture{
-	height: 18em;
-	width: 18em;
-	border: .25em solid black;
+	height: 16em;
+	width: 16em;
+	border-radius: 100em;
+	border: .5em solid #50FFD5;
 }
 
 .col-md-4,.col-md-8,.col-md-6{
-	font-family: 'Roboto';
-}
-
-#jumbo-contents-wrap{
-	height: 20em;
+	font-family: arial;
 }
 
 #myname-header{
-	font-size: 4em;
-	border-bottom: .1em solid black;
+	color:#50FFD5;
+	font-size: 3.75em;
 }
 
-a{
-	color:black;
+body{
+	background: #330066;
 }
 
+#wrap{
+	padding: 2em;
+}
+
+.container{
+	padding-bottom: 5em;
+	position: relative;
+	top:-5em;
+}
+p,li,h3,a{
+	font-family: lucida console;
+	color:#E6CCFF;
+}
+
+p,li{
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+h1,h2{
+	color:#50FFD5;
+	font-family:'Orbitron', sans-serif;
+}
+ a:visited{text-decoration:none}
+ a{
+ 	text-decoration: none;
+ }
 a:hover{
 	text-decoration: none;
-	color:green;
+	color:#50FFD5;
+}
+@media screen and (max-width: 62.5em){
+	.navbar{
+		visibility: hidden;
+	}
+}
+@media screen and (max-width: 43.75em){
+	.navbar{
+		visibility: hidden;
+	}
+}
+@media screen and (max-width: 18.75em){
+	.navbar{
+		visibility: hidden;
+	}
 }
