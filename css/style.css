@@ -20,7 +20,7 @@ a, a:visited, a:hover, a:active,a:after {
 	padding-right: 2em;
 }
 
-#row2,#row3{
+#row2 , #row3{
 	border-bottom: .1em solid #FFFFEE;
 }
 
@@ -37,7 +37,7 @@ a, a:visited, a:hover, a:active,a:after {
 	border: .5em solid #50FFD5;
 }
 
-.col-md-4,.col-md-8,.col-md-6{
+.col-md-4 , .col-md-8 , .col-md-6{
 	font-family: arial;
 }
 
@@ -59,38 +59,43 @@ body{
 	position: relative;
 	top:-5em;
 }
-p,li,h3,a{
+
+p , li , h3 ,a{
 	font-family: lucida console;
 	color:#E6CCFF;
 }
 
-p,li{
+p , li{
 	text-decoration: none;
 	font-size: 1.25em;
 }
 
-h1,h2{
+h1 , h2{
 	color:#50FFD5;
 	font-family:'Orbitron', sans-serif;
 }
- a:visited{text-decoration:none}
- a{
+
+a{
  	text-decoration: none;
- }
+}
+
 a:hover{
 	text-decoration: none;
 	color:#50FFD5;
 }
+
 @media screen and (max-width: 62.5em){
 	.navbar{
 		visibility: hidden;
 	}
 }
+
 @media screen and (max-width: 43.75em){
 	.navbar{
 		visibility: hidden;
 	}
 }
+
 @media screen and (max-width: 18.75em){
 	.navbar{
 		visibility: hidden;
