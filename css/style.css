@@ -2,17 +2,22 @@
 	padding-top: 5em;
 }
 
-a, a:visited, a:hover, a:active,a:after {
+a , a:visited , a:hover , a:active ,a:after {
     text-decoration:none;
 }
 
 #navbar-style{
-	background: purple;
-	opacity: .85;
+	background: black;
+	opacity: .9;
 	height: 1em;
+	color: white;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: 1.3em;
+}
+
+#navchild{
+	color: white;
 }
 
 #navbar-style>a{
@@ -20,12 +25,12 @@ a, a:visited, a:hover, a:active,a:after {
 	padding-right: 2em;
 }
 
-#row2,#row3{
+#row2 , #row3{
 	border-bottom: .1em solid #FFFFEE;
 }
 
 #jumbo{
-	background-image:url("image/codebackground.jpg"); 
+	background-image:url("image/codebackground3.jpg"); 
 	background-repeat:no-repeat; 
 	background-size:100% 100%;
 }
@@ -34,15 +39,15 @@ a, a:visited, a:hover, a:active,a:after {
 	height: 16em;
 	width: 16em;
 	border-radius: 100em;
-	border: .5em solid #50FFD5;
+	border: .5em solid #103142;
 }
 
-.col-md-4,.col-md-8,.col-md-6{
+.col-md-4 , .col-md-8 , .col-md-6{
 	font-family: arial;
 }
 
 #myname-header{
-	color:#50FFD5;
+	color:	#ffffff;
 	font-size: 3.75em;
 }
 
@@ -54,43 +59,65 @@ body{
 	padding: 2em;
 }
 
-.container{
-	padding-bottom: 5em;
-	position: relative;
-	top:-5em;
-}
-p,li,h3,a{
-	font-family: lucida console;
-	color:#E6CCFF;
+#download-icon{
+	font-size: 1em;
+	color: white;
 }
 
-p,li{
+.container{
+	background: #103142;	
+}
+
+#icon-div{
+	padding-top: 3em;
+}
+
+p , li , h3 , a {
+	font-family: lucida console;
+	color:	white;
+}
+
+p , li {
 	text-decoration: none;
 	font-size: 1.25em;
 }
 
-h1,h2{
+#icon{
+	font-size: 5em;
+	color: white;
+}
+
+#icon:hover{
 	color:#50FFD5;
+}
+
+h1 , h2{
+	color:	#ffffff;
 	font-family:'Orbitron', sans-serif;
 }
- a:visited{text-decoration:none}
- a{
+
+a{
  	text-decoration: none;
- }
+ 	padding-right: 3em;
+}
+
 a:hover{
 	text-decoration: none;
 	color:#50FFD5;
 }
+
 @media screen and (max-width: 62.5em){
 	.navbar{
 		visibility: hidden;
 	}
 }
+
 @media screen and (max-width: 43.75em){
 	.navbar{
 		visibility: hidden;
 	}
 }
+
 @media screen and (max-width: 18.75em){
 	.navbar{
 		visibility: hidden;
