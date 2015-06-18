@@ -2,17 +2,22 @@
 	padding-top: 5em;
 }
 
-a, a:visited, a:hover, a:active,a:after {
+a , a:visited , a:hover , a:active ,a:after {
     text-decoration:none;
 }
 
 #navbar-style{
-	background: purple;
-	opacity: .85;
+	background: black;
+	opacity: .9;
 	height: 1em;
+	color: white;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: 1.3em;
+}
+
+#navchild{
+	color: white;
 }
 
 #navbar-style>a{
@@ -25,7 +30,7 @@ a, a:visited, a:hover, a:active,a:after {
 }
 
 #jumbo{
-	background-image:url("image/codebackground.jpg"); 
+	background-image:url("image/codebackground3.jpg"); 
 	background-repeat:no-repeat; 
 	background-size:100% 100%;
 }
@@ -34,7 +39,7 @@ a, a:visited, a:hover, a:active,a:after {
 	height: 16em;
 	width: 16em;
 	border-radius: 100em;
-	border: .5em solid #50FFD5;
+	border: .5em solid #103142;
 }
 
 .col-md-4 , .col-md-8 , .col-md-6{
@@ -42,7 +47,7 @@ a, a:visited, a:hover, a:active,a:after {
 }
 
 #myname-header{
-	color:#50FFD5;
+	color:	#ffffff;
 	font-size: 3.75em;
 }
 
@@ -54,29 +59,61 @@ body{
 	padding: 2em;
 }
 
+#download-icon{
+	font-size: 1em;
+	color: white;
+}
+
 .container{
-	padding-bottom: 5em;
-	position: relative;
-	top:-5em;
+	background: #103142;	
 }
 
+<<<<<<< HEAD
 p , li , h3 ,a{
-	font-family: lucida console;
-	color:#E6CCFF;
+=======
+#icon-div{
+	padding-top: 3em;
 }
 
+p , li , h3 , a {
+>>>>>>> gh-pages
+	font-family: lucida console;
+	color:	white;
+}
+
+<<<<<<< HEAD
 p , li{
+=======
+p , li {
+>>>>>>> gh-pages
 	text-decoration: none;
 	font-size: 1.25em;
 }
 
+<<<<<<< HEAD
 h1 , h2{
+=======
+#icon{
+	font-size: 5em;
+	color: white;
+}
+
+#icon:hover{
+>>>>>>> gh-pages
 	color:#50FFD5;
+}
+
+h1 , h2{
+	color:	#ffffff;
 	font-family:'Orbitron', sans-serif;
 }
 
 a{
  	text-decoration: none;
+<<<<<<< HEAD
+=======
+ 	padding-right: 3em;
+>>>>>>> gh-pages
 }
 
 a:hover{

@@ -18,5 +18,9 @@ $(document).ready(function(){
 	  $("html, body").animate({ scrollTop:1024 }, "slow");
 	  return false;
 	});
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> gh-pages
 });
