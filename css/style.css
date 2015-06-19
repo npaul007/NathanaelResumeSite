@@ -68,38 +68,26 @@ body{
 	background: #103142;	
 }
 
-<<<<<<< HEAD
-p , li , h3 ,a{
-=======
 #icon-div{
 	padding-top: 3em;
 }
 
 p , li , h3 , a {
->>>>>>> gh-pages
 	font-family: lucida console;
 	color:	white;
 }
 
-<<<<<<< HEAD
-p , li{
-=======
 p , li {
->>>>>>> gh-pages
 	text-decoration: none;
 	font-size: 1.25em;
 }
 
-<<<<<<< HEAD
-h1 , h2{
-=======
 #icon{
 	font-size: 5em;
 	color: white;
 }
 
 #icon:hover{
->>>>>>> gh-pages
 	color:#50FFD5;
 }
 
@@ -110,10 +98,7 @@ h1 , h2{
 
 a{
  	text-decoration: none;
-<<<<<<< HEAD
-=======
  	padding-right: 3em;
->>>>>>> gh-pages
 }
 
 a:hover{

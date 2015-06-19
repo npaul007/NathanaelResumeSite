@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	
 	var contact = $('#contact');
 	var education = $("#education");
 	var skills = $('#skills');
@@ -18,9 +17,5 @@ $(document).ready(function(){
 	  $("html, body").animate({ scrollTop:1024 }, "slow");
 	  return false;
 	});
-<<<<<<< HEAD
-
-=======
 	
->>>>>>> gh-pages
 });
