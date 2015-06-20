@@ -4,17 +4,17 @@ $(document).ready(function(){
 	var skills = $('#skills');
 
 	contact.click(function(e) {
-	  $("html, body").animate({ scrollTop:375 }, "slow");
+	  $("html, body").animate({ scrollTop:$("#row2").offset().top }, "slow");
 	  return false;
 	});
 
 	education.click(function() {
-	  $("html, body").animate({ scrollTop:860 }, "slow");
+	  $("html, body").animate({ scrollTop:$("#row3").offset().top }, "slow");
 	  return false;
 	});
 
 	skills.click(function() {
-	  $("html, body").animate({ scrollTop:1024 }, "slow");
+	  $("html, body").animate({ scrollTop:$("#row4").offset().top }, "slow");
 	  return false;
 	});
 	
