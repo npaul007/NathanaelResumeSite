@@ -119,7 +119,11 @@ a:hover{
 @media only screen and (max-width: 760px) and (max-width: 320px){
 	.navbar,.navbar-header,.collapse{
 		width: 100%;
+		display: block;
 		float:none;
+	}
+	.collapse{
+		display: none;
 	}
 }
 
