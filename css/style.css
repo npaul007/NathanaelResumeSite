@@ -94,14 +94,17 @@ a:hover{
 	color:#50FFD5;
 }
 
-@media screen and (max-width: 62.5em){
 
-}
-
-@media only screen and (max-width: 760px) and (max-width: 320px){
-	.navbar-fixed-top,.navbar-collapse{
-		max-height: 50px;
-		max-width: 100px;
+@media only screen and  (max-width: 320px){
+	.navbar-fixed-top,.navbar-collapse,.navbar-inverse {
+		max-height: 250px;
+		max-width: 320px;
 	}
 }
 
+@media only screen and  (max-width: 760px){
+	.navbar-fixed-top,.navbar-collapse,.navbar-inverse {
+		max-height: 300px;
+		max-width: 650px;
+	}
+}
