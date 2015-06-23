@@ -25,7 +25,7 @@ a , a:visited , a:hover , a:active ,a:after {
 	padding-right: 2em;
 }
 
-#row2 , #row3{
+#row2 , #row3,#row4{
 	border-bottom: .1em solid #FFFFEE;
 }
 
