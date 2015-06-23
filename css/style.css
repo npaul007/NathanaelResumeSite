@@ -124,8 +124,8 @@ a:hover{
 
 @media screen and (max-width: 18.75em){
 	.navbar{
-		.navbar{
-			width: 45%;
-		}
+		
+		width: 45%;
+		
 	}
 }
