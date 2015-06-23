@@ -17,23 +17,13 @@
             
     <body>
     <div class ="container">
-           <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                      </button>
-                      <a class="navbar-brand" href="#">Nathanael Paulemon</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-middle">
-                          <li><a href="" id ="contact" >Contact</a>  </li>
-                          <li><a href="" id ="education" >Education</a>  </li> 
-                          <li><a href="" id = "skills" >Skills</a></li> 
-                        </ul>
-                    </div>
-            </nav>
+           <nav class="navbar navbar-fixed-top" id="navbar-style">
+                <center>
+                   <a href="" id ="contact" >Contact</a>  
+                  <a href="" id ="education" >Education</a>   
+                   <a href="" id = "skills" >Skills</a>
+                </center>
+          </nav>
 
             <div class="jumbotron" id="jumbo" >
               <center>
@@ -149,7 +139,16 @@
               </div>
           </div>
 
-          
+          <div class = "row" class = "applet-wrap">
+             <center>
+                <applet
+                    codebase = "games/WebResumeApplet/build/classes/"
+                    code = "newwebresumeapplet.Applet.class"
+                    height = "500"
+                    width = "700"
+                ></applet>
+             </center>
+          </div>
           
     </div>
     </body>

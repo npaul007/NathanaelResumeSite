@@ -6,6 +6,15 @@ a , a:visited , a:hover , a:active ,a:after {
     text-decoration:none;
 }
 
+#navbar-style{
+	background: black;
+	padding: 1em;
+	opacity: .9;
+	height: 1em;
+	color: white;
+	font-size: 1.3em;
+}
+
 .btn{
 	height: 5em;
 	width: 5em;
@@ -94,15 +103,29 @@ a:hover{
 	color:#50FFD5;
 }
 
+.navbar-collapse.collapse{
+	 text-align: center; /* Set this */
+     display: block !important;
+     height: auto !important;
+     padding-bottom: 0;
+     overflow: visible !important;
+     padding-right: 15em;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
 
 @media only screen and  (max-width: 320px){
-	.navbar-fixed-top,.navbar-collapse,.navbar-inverse {
-
+	.navbar{
+		display: none;
 	}
 }
 
 @media only screen and  (max-width: 760px){
-	.navbar-fixed-top,.navbar-collapse,.navbar-inverse {
-
+	.navbar{
+		display: none;
 	}
 }
