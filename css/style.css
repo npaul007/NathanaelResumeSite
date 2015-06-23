@@ -116,16 +116,9 @@ a:hover{
 	}
 }
 
-@media screen and (max-width: 43.75em){
-	.navbar{
-		
+@media only screen and (max-width: 760px) and (max-width: 320px){
+	.navbar,.navbar-header,.collapse{
+		width: 100%;
 	}
 }
 
-@media screen and (max-width: 18.75em){
-	.navbar{
-		
-		width: 45%;
-		
-	}
-}
