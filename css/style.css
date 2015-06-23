@@ -11,9 +11,13 @@ a , a:visited , a:hover , a:active ,a:after {
 	opacity: .9;
 	height: 1em;
 	color: white;
-	padding-top: 1em;
-	padding-bottom: 1em;
 	font-size: 1.3em;
+}
+
+.btn{
+	height: 5em;
+	width: 5em;
+	background: blue;
 }
 
 #navchild{
@@ -25,7 +29,7 @@ a , a:visited , a:hover , a:active ,a:after {
 	padding-right: 2em;
 }
 
-#row2 , #row3,#row4{
+#row2 , #row3, #row4, #row5{
 	border-bottom: .1em solid #FFFFEE;
 }
 
@@ -108,18 +112,18 @@ a:hover{
 
 @media screen and (max-width: 62.5em){
 	.navbar{
-		visibility: hidden;
+		
 	}
 }
 
 @media screen and (max-width: 43.75em){
 	.navbar{
-		visibility: hidden;
+		
 	}
 }
 
 @media screen and (max-width: 18.75em){
 	.navbar{
-		visibility: hidden;
+		
 	}
 }

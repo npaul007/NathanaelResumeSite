@@ -4,22 +4,33 @@
         <meta charset="UTF-8">
         <title>Nathanael Paulemon</title>
         <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <script src = "js/jquery.js"></script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <script src = "js/jquery.js"></script>
         <script src="js/script.js" type ="text/javascript"></script>
     </head>
 
     <body>
         
-        <div class="navbar navbar-default navbar-fixed-top" id="navbar-style">
-          <center>
-            <a href="" id ="contact" id="navchild">Contact</a>  
-            <a href="" id ="education" id="navchild">Education</a>  
-            <a href="" id = "skills" id="navchild">Skills</a>
-          </center>
-        </div>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+              <a class="navbar-brand" href="#">Nathanael Paulemon</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="" id ="contact" >Contact</a>  </li>
+                  <li><a href="" id ="education" >Education</a>  </li> 
+                  <li><a href="" id = "skills" >Skills</a></li> 
+                </ul>
+            </div>
+      </nav>
 
         <div class="jumbotron" id="jumbo" >
           <center>
@@ -127,21 +138,27 @@
           </div>
         </div>
 
-        <div class = "row">
-            <div class = "col-md-4"></div>
-            <div class = "col-md-4">
+        <div class = "row" id ="row5">
+            <div class = "col-md-12">
               <h3>The Ball Generator</h3>
-              <p>This is an applet written in java the demonstrates my skills in creating graphical user
-                interfaces and animation</p>  
-              <applet
+              <p>This is an applet written in java that demonstrates my skills in creating graphical user
+                interfaces and animations</p>  
+              <p>This applet is only supported on Internet Explorer and Firefox</p>
+              <p>Must have java enabled in this browser in order for applet to work</p>
+            </div>
+
+        </div>
+        <div class = "row" class = "applet-wrap">
+         <center>
+            <applet
                 codebase = "games/WebResumeApplet/build/classes/"
                 code = "newwebresumeapplet.Applet.class"
                 height = "500"
-                width = "500"
-              ></applet>
-            </div>
-            <div class = "col-md-4"></div>
+                width = "700"
+            ></applet>
+         </center>
         </div>
+      </div>
 
     </body>
 </html>
