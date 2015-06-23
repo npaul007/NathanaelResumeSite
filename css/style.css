@@ -99,6 +99,9 @@ a:hover{
 }
 
 @media only screen and (max-width: 760px) and (max-width: 320px){
-
+	.navbar-fixed-top,.navbar-collapse{
+		max-height: 50px;
+		max-width: 100px;
+	}
 }
 
