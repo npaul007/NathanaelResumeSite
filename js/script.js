@@ -22,4 +22,7 @@ $(document).ready(function(){
 		$('#myNavbar').slideToggle('fast');
 	});
 	
+	if ($(window).width() > 480) {
+    	$(".collapse").collapse('show');   
+  	}
 });

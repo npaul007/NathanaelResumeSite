@@ -6,6 +6,10 @@ a , a:visited , a:hover , a:active ,a:after {
     text-decoration:none;
 }
 
+#tags{
+	padding-right: 12em;
+}
+
 #navbar-style{
 	background: black;
 	padding: 1em;
