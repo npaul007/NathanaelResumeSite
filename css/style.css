@@ -12,11 +12,8 @@ a , a:visited , a:hover , a:active ,a:after {
 
 #navbar-style{
 	background: black;
-	padding: 1em;
 	opacity: .9;
-	height: 1em;
 	color: white;
-	font-size: 1.3em;
 }
 
 .btn{
@@ -27,6 +24,7 @@ a , a:visited , a:hover , a:active ,a:after {
 
 
 #row2 , #row3, #row4, #row5{
+	background: #103142;
 	border-bottom: .1em solid #FFFFEE;
 }
 
@@ -63,10 +61,6 @@ body{
 #download-icon{
 	font-size: 1em;
 	color: white;
-}
-
-.container{
-	background: #103142;	
 }
 
 #icon-div{
@@ -122,14 +116,4 @@ a:hover{
     margin: 0;
 }
 
-@media only screen and  (max-width: 320px){
-	.navbar{
-		display: none;
-	}
-}
 
-@media only screen and  (max-width: 760px){
-	.navbar{
-		display: none;
-	}
-}

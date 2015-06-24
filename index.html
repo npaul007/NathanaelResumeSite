@@ -5,28 +5,40 @@
         <title>Nathanael Paulemon</title>
         <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
         <script src = "js/jquery.js"></script>
-        <link href="/stylesheets/bootstrap-responsive.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <script src="js/script.js" type ="text/javascript"></script>
     </head>
 
-
-    
-            
+  
     <body>
     <div class ="container">
-           <nav class="navbar navbar-fixed-top" id="navbar-style">
-                <div class ="navbar-header">
-                  <a href="">Nathanael Paulemon</a>
-                </div>
-                <center id = "tags">
-                   <a href="" id ="contact" >Contact</a>  
-                  <a href="" id ="education" >Education</a>   
-                   <a href="" id = "skills" >Skills</a>
-                </center>
+         <nav class = "navbar navbar-default navbar-static-top" id = "navbar-style">
+            <div class="container">
+              <div class="navbar-header">
+                <button id="nav-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
+                <!-- Determines how many lines are in the "Hamburger" button -->
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-header navbar-left" href="#">
+                  <h3>Nathanael Paulemon</h3></a>
+
+              </div>
+
+            <div class="collapse navbar-collapse" id="my-navbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" id="contact">Contact</a></li>
+                <li><a href="#" id = "education">Education</a></li>
+                <li><a href="#" id = "skills">Skills</a></li>
+              </ul>  
+            </div>
           </nav>
+        
 
             <div class="jumbotron" id="jumbo" >
               <center>
@@ -142,7 +154,7 @@
               </div>
           </div>
 
-          <div class = "row" class = "applet-wrap">
+          <div class = "row" id="row5" class = "applet-wrap" >
              <center>
                 <applet
                     codebase = "games/WebResumeApplet/build/classes/"

@@ -17,12 +17,5 @@ $(document).ready(function(){
 	  $("html, body").animate({ scrollTop:$("#row4").offset().top }, "slow");
 	  return false;
 	});
-
-	$('.navbar-toggle').click(function(){
-		$('#myNavbar').slideToggle('fast');
-	});
 	
-	if ($(window).width() > 480) {
-    	$(".collapse").collapse('show');   
-  	}
 });
