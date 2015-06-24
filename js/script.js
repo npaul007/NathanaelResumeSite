@@ -18,5 +18,7 @@ $(document).ready(function(){
 	  return false;
 	});
 
-	
+	/*$('#nav-button').click(function(){
+		$('#my-navbar').toggle();
+	});*/
 });
