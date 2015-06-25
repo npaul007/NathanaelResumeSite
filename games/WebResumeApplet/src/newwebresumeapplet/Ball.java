@@ -25,22 +25,6 @@ public class Ball {
     }
      
     public void draw(Graphics g, JPanel ja){
-        genColor = (1) + (int)(Math.random() * (5));
-        switch(genColor){
-            case 1:
-                g.setColor(Color.BLUE);
-            break;
-            case 2:
-                g.setColor(Color.GREEN);
-            break;
-            case 3:
-                g.setColor(Color.RED);
-            break;
-            case 4:
-                g.setColor(Color.PINK);
-            break;
-                
-        }
         g.fillOval(x, y, width, height);
     }
     
@@ -49,8 +33,8 @@ public class Ball {
         y += yVel;
     }
      
-    public void Collision(Panel p  ){
-
+    public void Collision(Panel p ){
+        
         if(x > p.getWidth()){
             if(xVel == p.ballSpeed && yVel == p.ballSpeed ){
                 xVel = -p.ballSpeed;

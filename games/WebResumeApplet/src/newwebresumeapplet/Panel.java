@@ -41,7 +41,8 @@ public class Panel extends JPanel implements ActionListener,KeyListener{
     boolean jump = false;
     int jumpTime = 200;
     
-    int ballSpeed = 2;
+    int ballSpeed = 3;
+
     int n = 100;
     
     public Panel(){
@@ -57,7 +58,7 @@ public class Panel extends JPanel implements ActionListener,KeyListener{
         
         moreBalls.addActionListener(this);
         lessBalls.addActionListener(this);
-        
+    
      
         for(int i = 0; i < n; i++){
             genX = (70) + (int)(Math.random() * (400));
@@ -77,11 +78,53 @@ public class Panel extends JPanel implements ActionListener,KeyListener{
     
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        g.setColor(Color.RED);
+
         //g.fillRect(x, y, 30, 30);
         
+        int gen = 1;
+        
         for(int i = 0; i < n; i++){
+            
+         if(gen > 10){
+             gen = 1;
+         }   
+         
+         switch(gen){
+             case 1:
+                 g.setColor(Color.GREEN);
+             break;
+             case 2:
+                 g.setColor(Color.RED);
+             break;
+             case 3:
+                 g.setColor(Color.MAGENTA);
+             break;
+             case 4:
+                 g.setColor(Color.CYAN);
+             break;
+             case 5:
+                 g.setColor(Color.BLUE);
+             break;
+             case 6:
+                 g.setColor(Color.ORANGE);
+             break;
+             case 7:
+                 g.setColor(Color.WHITE);
+             break;
+             case 8:
+                 g.setColor(Color.pink);
+             break;
+             case 9:
+                 g.setColor(Color.yellow);
+             break;
+             case 10:
+                 g.setColor(Color.getHSBColor(234, 211, 111));
+             break;
+            
+        
+         }
             ball[i].draw(g, this);
+            gen++;
         }
         
     }
@@ -138,6 +181,7 @@ public class Panel extends JPanel implements ActionListener,KeyListener{
             }
             n-=5;
         }
+        
         
         if(jump){
             velY = -2;
