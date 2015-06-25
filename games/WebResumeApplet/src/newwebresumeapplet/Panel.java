@@ -59,11 +59,9 @@ public class Panel extends JPanel implements ActionListener,KeyListener{
         moreBalls.addActionListener(this);
         lessBalls.addActionListener(this);
     
-     
         for(int i = 0; i < n; i++){
-            genX = (70) + (int)(Math.random() * (400));
-            genY = (70) + (int)(Math.random() * (400));
-            ball[i] = new Ball(genX,genY,13,13,0,0);
+            int gen = (10) + (int)(Math.random() * (100));   
+            ball[i] = new Ball(genX,genY,gen,gen,0,0);
         }
         
         for(int i = 0; i < n; i++){
