@@ -1,4 +1,4 @@
-.container{
+#contain{
 	padding-top: 5em;
 }
 
@@ -6,26 +6,8 @@ a , a:visited , a:hover , a:active ,a:after {
     text-decoration:none;
 }
 
-#navbar-style{
-	background: black;
-	opacity: .9;
-	height: 1em;
-	color: white;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	font-size: 1.3em;
-}
-
-#navchild{
-	color: white;
-}
-
-#navbar-style>a{
-	color:white;
-	padding-right: 2em;
-}
-
-#row2 , #row3{
+#row2 , #row3, #row4, #row5{
+	background: #103142;
 	border-bottom: .1em solid #FFFFEE;
 }
 
@@ -62,10 +44,6 @@ body{
 #download-icon{
 	font-size: 1em;
 	color: white;
-}
-
-.container{
-	background: #103142;	
 }
 
 #icon-div{
@@ -106,20 +84,43 @@ a:hover{
 	color:#50FFD5;
 }
 
-@media screen and (max-width: 62.5em){
-	.navbar{
-		visibility: hidden;
+.navbar{
+	background: black;
+	font-size: 1em;
+}
+
+#tags>a{
+	padding-top: 2em;
+	color: white;
+}
+
+#tags>a:hover{
+	color: #50FFD5;
+}
+
+ul{
+	color: white;
+}
+
+button{
+	background: black;
+	color: white;
+	position: fixed;
+	bottom: -2em;
+}
+
+span{
+	color: white;
+}
+
+@media only screen and  (max-width: 320px){
+	 #row5{
+		display: none;
 	}
 }
 
-@media screen and (max-width: 43.75em){
-	.navbar{
-		visibility: hidden;
-	}
-}
-
-@media screen and (max-width: 18.75em){
-	.navbar{
-		visibility: hidden;
+@media only screen and  (max-width: 760px){
+	#row5{
+		display: none;
 	}
 }
