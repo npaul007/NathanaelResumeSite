@@ -13,17 +13,31 @@
 	margin-left: auto;
 }
 
+.headers{
+	margin-left: 40px;
+}
+
 .icon{
 	font-size: 5em;
 	color: white;
 	display: inline-block;
 	padding: 3px;
+	-webkit-transition-property: color;
+    transition-property: color;
 }
 
-#icon{
+.icon:hover{
+	color: pink;
+}
+
+#icon-fa{
 	color: white;
 	font-size: 12em;
 	padding-top: 20px;
+}
+
+#icon-fa:hover{
+	color: pink;
 }
 
 .resume-button{
@@ -31,11 +45,20 @@
 	width: 250px;
 	background: black;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	border:5px solid white;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 40px;
+	-webkit-transition-property: color, background,width; 
+    transition-property: color, background,width;
+}
+
+.resume-button:hover{
+	background: white;
+	color: black;
+	width:300px;
 }
 
 .resume-padding{
@@ -49,7 +72,7 @@
 }
 
 body{
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Archivo Black', sans-serif;
 	background:black;
 }
 
@@ -57,12 +80,13 @@ body{
 	border-bottom: 5px solid white;
 }
 
-#row1{
+#nyc-pic-div{
 	color: white;
 	background: black;
-	background-image: url("../css/image/img2.jpeg");
+	background-image: url("../css/image/img1.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	height: 300px;
 }
 
 #row2{

@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$('.fa-github').click(function(){window.location.href = 'https://github.com/npaul007'});
+	$('.resume-button').click(function(){window.location.href = 'files/Resume.docx'});
 
 	/*
 	var contact = $('#contact');
