@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	/*
 	var contact = $('#contact');
 	var education = $("#education");
 	var skills = $('#skills');
@@ -18,7 +20,5 @@ $(document).ready(function(){
 	  return false;
 	});
 
-	/*$('#nav-button').click(function(){
-		$('#my-navbar').toggle();
-	});*/
+	*/
 });
