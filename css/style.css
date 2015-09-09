@@ -21,6 +21,14 @@
 	margin-left: 40px;
 }
 
+.container{
+	padding-top: 50px;
+}
+
+a{
+	color: white;
+}
+
 .icon{
 	font-size: 5em;
 	color: white;
@@ -64,11 +72,33 @@
 .resume-button:hover{
 	background: white;
 	color: black;
-	width:300px;
+	width:270px;
 }
 
 .resume-padding{
 	padding: 50px;
+}
+
+.navbar-btn{
+	width: 100px;
+	border: 2px solid white;
+	background: black;
+	color: white;
+	-webkit-transition-property: color, background; 
+    transition-property: color, background;
+}
+
+.navbar-btn:hover{
+	background: white;
+	color: black;
+}
+
+.navbar{
+	background: black;
+}
+
+.navbar-brand{
+	font-size: 1.5em;
 }
 
 #my-picture-div{
@@ -76,10 +106,11 @@
 	background-size: 115% 100%;
 	height: 300px;
 	border-radius: 200px;
+	border:5px solid white;
 }
 
 body{
-	font-family: 'Archivo Black', sans-serif;
+	font-family: calibri;
 	background:black;
 }
 
@@ -97,9 +128,15 @@ body{
 }
 
 #row2{
+	padding: 20px;
 	color: white;
 	background: black;
 	background-image: url("../css/image/codebackground2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+#languages-div{
+	position: relative;
+	margin-left: 20px;
 }
