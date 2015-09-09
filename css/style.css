@@ -69,6 +69,7 @@
 	background-image: url("../css/image/mypic.png");
 	background-size: 115% 100%;
 	height: 300px;
+	border-radius: 200px;
 }
 
 body{
@@ -86,7 +87,6 @@ body{
 	background-image: url("../css/image/img1.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 300px;
 }
 
 #row2{
