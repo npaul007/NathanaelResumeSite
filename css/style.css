@@ -30,10 +30,10 @@ a{
 }
 
 .icon{
-	font-size: 5em;
+	font-size: 5.2em;
 	color: white;
 	display: inline-block;
-	padding: 3px;
+	padding: 5px;
 	-webkit-transition-property: color;
     transition-property: color;
 }
@@ -104,7 +104,7 @@ a{
 
 #my-picture-div{
 	background-image: url("../css/image/mypic.png");
-	background-size: 100% 120%;
+	background-size: 110% 120%;
 	background-repeat: no-repeat;
 	height: 210px;
 	overflow: hidden;
@@ -146,9 +146,8 @@ body{
 }
 
 .row{
-	border-bottom: 2px solid white;
 	color: white;
-	padding: 10px;
+	padding-bottom: 40px;
 }
 
 #nyc-pic-div{
@@ -160,7 +159,6 @@ body{
 }
 
 #row2{
-	padding: 20px;
 	color: white;
 	background: black;
 	background-image: url("../css/image/codebackground2.jpg");
