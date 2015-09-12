@@ -103,15 +103,6 @@ a{
 	font-size: 1.5em;
 }
 
-#my-picture-div{
-	background-image: url("../css/image/mypic.png");
-	background-size: 115% 122%;
-	background-repeat: no-repeat;
-	height: 222px;
-	overflow: hidden;
-	border: 2px solid white;
-}
-
 #pong-div{
 	background-image:url("../css/image/img3.jpg");
 	background-size: 100% 100%;
