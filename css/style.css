@@ -30,10 +30,10 @@ a{
 }
 
 .icon{
-	font-size: 5.2em;
+	font-size: 5em;
+	padding: 5px;
 	color: white;
 	display: inline-block;
-	padding: 5px;
 	-webkit-transition-property: color;
     transition-property: color;
 }
@@ -63,6 +63,7 @@ a{
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 50px;
+	margin-bottom: 50px;
 	border-radius: 40px;
 	position: relative;
 	-webkit-transition-property: color, background,width; 
@@ -104,9 +105,9 @@ a{
 
 #my-picture-div{
 	background-image: url("../css/image/mypic.png");
-	background-size: 110% 120%;
+	background-size: 115% 122%;
 	background-repeat: no-repeat;
-	height: 210px;
+	height: 222px;
 	overflow: hidden;
 	border: 2px solid white;
 }
@@ -147,7 +148,10 @@ body{
 
 .row{
 	color: white;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 }
 
 #nyc-pic-div{
@@ -166,7 +170,3 @@ body{
 	background-size: 100% 100%;
 }
 
-#languages-div{
-	position: relative;
-	margin-left: 20px;
-}
