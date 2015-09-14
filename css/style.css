@@ -25,8 +25,24 @@
 	padding-top: 50px;
 }
 
+.icon-bar{
+	color: white;
+}
+
 a{
 	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.modal-button{
+	font-size: 1.5em;
+	margin: 20px;
+	width: 200px;
 }
 
 .icon{
@@ -76,12 +92,16 @@ a{
 	width:270px;
 }
 
+.resume-button:focus{
+	color: white;
+}
+
 .resume-padding{
 	padding: 50px;
 }
 
 .navbar-btn{
-	width: 25%;
+	width: 20%;
 	border: 2px solid white;
 	background: black;
 	color: white;
@@ -92,6 +112,10 @@ a{
 .navbar-btn:hover{
 	background: white;
 	color: black;
+}
+
+.navbar-btn:focus{
+	color: white;
 }
 
 .navbar{
@@ -130,6 +154,10 @@ a{
 #pong-button:hover{
 	color: black;
 	background: white;
+}
+
+#pong-button:focus{
+	color: white;
 }
 
 body{
