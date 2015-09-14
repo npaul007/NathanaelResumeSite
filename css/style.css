@@ -71,7 +71,7 @@ a:hover{
 .resume-button{
 	height: 100px;
 	width: 250px;
-	background: black;
+	background: #FF0066;
 	color: white;
 	font-size: 1.2em;
 	border:5px solid white;
@@ -88,7 +88,7 @@ a:hover{
 
 .resume-button:hover{
 	background: white;
-	color: black;
+	color: #FF0066;
 	width:270px;
 }
 
@@ -171,6 +171,7 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
+	border-bottom: 2px solid white;
 }
 
 #nyc-pic-div{
@@ -182,7 +183,7 @@ body{
 }
 
 #row1{
-	background: #FF5050;
+	background: #FF512A;
 }
 
 #row2{
@@ -191,5 +192,13 @@ body{
 	background-image: url("../css/image/codebackground2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+#row3{
+	background: gray;
+}
+
+#row4{
+	background: #FF0066;
 }
 
