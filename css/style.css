@@ -22,7 +22,7 @@
 }
 
 .container{
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 .icon-bar{
@@ -41,12 +41,6 @@ a:hover{
 
 p{
 	font-size: 1.5em;
-}
-
-.modal-button{
-	font-size: 1.5em;
-	margin: 20px;
-	width: 200px;
 }
 
 .icon{
@@ -170,7 +164,7 @@ p{
 }
 
 #aboutme{
-	background: #CC0000;
+	background: #FF3300;
 }
 
 #contact{
@@ -196,22 +190,57 @@ body{
 	background-image: url("../css/image/img1.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	border-bottom: 2.5px solid white;
 }
 
 #row1{
 	background: #FF512A;
+	border-bottom: 2.5px solid white;
 }
 
 #row2{
 	color: black;
 	background: yellow;
+	border-bottom: 2.5px solid white;
 }
 
 #row3{
 	background: purple;
+	border-bottom: 2.5px solid white;
 }
 
 #row4{
 	background: red;
+	border-bottom: 2.5px solid white;
 }
 
+#aboutme-modal{
+	border-top: 2px solid white;
+}
+
+.modal-content{
+	background: black;
+	color: white;
+}
+
+.modal-button{
+	background: black;
+	color:white;
+	border: 2px solid white;
+}
+
+.modal-body{
+	height: 500px;
+}
+
+.modal-buttons{
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	padding-bottom: 20px;
+}
+
+.modal-buttons:hover{
+	background: white;
+	color: black;
+}

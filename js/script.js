@@ -4,25 +4,29 @@ $(document).ready(function(){
 	$('.resume-button').click(function(){window.location.href = 'files/Resume.docx'});
 	$('#pong-button').click(function(){window.location.href ='http://unipong.meteor.com'});
 
-	/*
-	var contact = $('#contact');
-	var education = $("#education");
-	var skills = $('#skills');
+	var aboutme = $('#caboutme-modal');
+	var skills = $('#skills-modal');
+	var contact = $('#contact-modal');
+	var projects = $('#projects-modal');
 
 	contact.click(function(e) {
-	  $("html, body").animate({ scrollTop:$("#row2").offset().top }, "slow");
-	  return false;
-	});
-
-	education.click(function() {
-	  $("html, body").animate({ scrollTop:$("#row3").offset().top }, "slow");
+	  $("html, body").animate({ scrollTop:$("contact").offset().top }, "slow");
 	  return false;
 	});
 
 	skills.click(function() {
-	  $("html, body").animate({ scrollTop:$("#row4").offset().top }, "slow");
+	  $("html, body").animate({ scrollTop:$("#skulls").offset().top }, "slow");
 	  return false;
 	});
 
-	*/
+	projects.click(function() {
+	  $("html, body").animate({ scrollTop:$("#projects").offset().top }, "slow");
+	  return false;
+	});
+
+	aboutme.click(function() {
+	  $("html, body").animate({ scrollTop:$("#aboutme").offset().top }, "slow");
+	  return false;
+	});
+
 });
