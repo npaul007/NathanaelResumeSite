@@ -39,6 +39,10 @@ a:hover{
 	text-decoration: none;
 }
 
+p{
+	font-size: 1.5em;
+}
+
 .modal-button{
 	font-size: 1.5em;
 	margin: 20px;
@@ -158,6 +162,19 @@ a:hover{
 
 #projects{
 	background:#290029;
+}
+
+#skills{
+	background: #FF9900;
+	color: black;
+}
+
+#aboutme{
+	background: #CC0000;
+}
+
+#contact{
+	background: #800000;
 }
 
 body{
