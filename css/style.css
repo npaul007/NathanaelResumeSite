@@ -22,7 +22,7 @@
 }
 
 .container{
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .icon-bar{
@@ -216,6 +216,10 @@ body{
 
 #aboutme-modal{
 	border-top: 2px solid white;
+}
+
+.modal-dialog{
+	background: black;
 }
 
 .modal-content{

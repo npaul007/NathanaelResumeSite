@@ -10,25 +10,25 @@ $(document).ready(function(){
 	var projects = $('#projects-modal');
 
 	contact.click(function(e) {
-	  $("html, body").animate({ scrollTop:$("#contact").offset().top }, "slow");
+	  $("html, body").animate({ scrollTop:$("#contact").offset().top-45 }, "slow");
 	  closeModal();
 	  return false;
 	});
 
 	skills.click(function() {
-	  $("html, body").animate({ scrollTop:$("#skills").offset().top-40 }, "slow");
+	  $("html, body").animate({ scrollTop:$("#skills").offset().top-45 }, "slow");
 	  closeModal();
 	  return false;
 	});
 
 	projects.click(function() {
-	  $("html, body").animate({ scrollTop:$("#projects").offset().top-40 }, "slow");
+	  $("html, body").animate({ scrollTop:$("#projects").offset().top-45 }, "slow");
 	  closeModal();
 	  return false;
 	});
 
 	aboutme.click(function() {
-	  $("html, body").animate({ scrollTop:$("#aboutme").offset().top-40 }, "slow");
+	  $("html, body").animate({ scrollTop:$("#aboutme").offset().top-45 }, "slow");
 	  closeModal();
 	  return false;
 	});
