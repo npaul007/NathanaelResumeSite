@@ -2,6 +2,18 @@
 	text-align: center;
 }
 
+.right-text{
+	text-align: right;
+}
+
+.left-text{
+	text-align: left;
+}
+
+.center-div{
+	margin-left: 400px;
+}
+
 .padding{
 	padding-left: 35px;
 	padding-right: 35px;
@@ -171,6 +183,16 @@ p{
 	background: #CC0000;
 }
 
+#education{
+	color: white;
+	background: #6699FF;
+}
+
+#education-div{
+	background: #3399FF;
+	color: white;
+}
+
 body{
 	font-family: 'Righteous', cursive;
 	background:black;
@@ -212,10 +234,6 @@ body{
 #row4{
 	background: red;
 	border-bottom: 2.5px solid white;
-}
-
-#aboutme-modal{
-	
 }
 
 .modal-dialog{

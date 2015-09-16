@@ -8,6 +8,7 @@ $(document).ready(function(){
 	var skills = $('#skills-modal');
 	var contact = $('#contact-modal');
 	var projects = $('#projects-modal');
+	var education = $('#education-modal');
 
 	contact.click(function(e) {
 	  $("html, body").animate({ scrollTop:$("#contact").offset().top-45 }, "slow");
@@ -32,6 +33,14 @@ $(document).ready(function(){
 	  closeModal();
 	  return false;
 	});
+
+	education.click(function() {
+	  $("html, body").animate({ scrollTop:$("#education").offset().top-45 }, "slow");
+	  closeModal();
+	  return false;
+	});
+
+
 
 	function scrollTo(div){
 	  $("html, body").animate({ scrollTop:$("#aboutme").offset().top-45 }, "slow");
