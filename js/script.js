@@ -40,8 +40,6 @@ $(document).ready(function(){
 	  return false;
 	});
 
-
-
 	function scrollTo(div){
 	  $("html, body").animate({ scrollTop:$("#aboutme").offset().top-45 }, "slow");
 	  closeModal();
