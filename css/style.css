@@ -193,6 +193,22 @@ p{
 	color: white;
 }
 
+#employment{
+	background: #009900;
+}
+
+#employment-row{
+	background: #336600;
+}
+
+#a100-emblem{
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+	width: 100px;
+	height: 100px;
+}
+
 body{
 	font-family: 'Righteous', cursive;
 	background:black;
