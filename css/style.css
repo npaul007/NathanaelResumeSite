@@ -177,6 +177,7 @@ p{
 
 #aboutme{
 	background: #FF3300;
+        text-align:justify;
 }
 
 #contact{
@@ -228,28 +229,24 @@ body{
 	background-image: url("../css/image/img1.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	border-bottom: 2.5px solid white;
 }
 
 #row1{
 	background: #FF512A;
-	border-bottom: 2.5px solid white;
+        text-align:justify;
 }
 
 #row2{
 	color: black;
 	background: yellow;
-	border-bottom: 2.5px solid white;
 }
 
 #row3{
 	background: purple;
-	border-bottom: 2.5px solid white;
 }
 
 #row4{
 	background: red;
-	border-bottom: 2.5px solid white;
 }
 
 .modal-dialog{
