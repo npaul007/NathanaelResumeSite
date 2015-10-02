@@ -56,6 +56,78 @@ $(document).ready(function(){
 
 
 window.onload = function(){
-	
+
+	var ball = function(x,y,r,xVel,yVel){
+		this.x = x;
+		this.y = y;
+		this.r = r;
+		this.xVel = xVel;
+		this.yVel = yVel;
+		this.animate = function(){
+			this.x+=this.xVel;
+			this.y+=this.yVel;
+		}
+		this.collision = function(){
+			if(this.x > 330){
+				this.xVel *= -1;
+			}
+
+			else if(this.x < 0){
+				this.xVel *= -1;
+			}
+
+			else if(this.y < 0){
+				this.yVel *= -1;
+			}
+
+			else if(this.y > 150){
+				this.yVel *= -1;
+			}
+		}
+	}
+
+	function setColor(ctx,color){
+		ctx.fillStyle = color;
+	}
+
+	function getCanvas(){
+		return document.getElementById('myCanvas');
+	}
+
+	function getContext(canvas){
+		return canvas.getContext('2d');
+	}
+
+	function drawCircle(ctx,x,y,r){
+		ctx.beginPath();
+		ctx.arc(x,y,r,0,2*Math.PI);
+		ctx.fill();
+	}
+
+	function clearCanvas(ctx){
+		ctx.clearRect(0,0,1000,1000);
+	}
+
+	setTimeout(actionPerformed,25);
+
+	var ball = new ball(100,100,10,2,2);
+
+	function actionPerformed(){
+		var canvas = getCanvas();
+		var ctx = getContext(canvas);
+
+		clearCanvas(ctx);
+
+		setColor(ctx,"white");
+		drawCircle(ctx,ball.x,ball.y,ball.r);
+
+		ball.animate();
+		ball.collision();
+
+		setTimeout(actionPerformed,25)
+		
+	}
+
+
 }
 

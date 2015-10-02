@@ -273,3 +273,13 @@ body{
 	background: white;
 	color: black;
 }
+
+#myCanvas{
+	background: #301630;
+	width: 100%;
+	height: 500px;
+}
+
+#ballgenerator{
+	background: purple;
+}
