@@ -57,31 +57,35 @@ $(document).ready(function(){
 
 window.onload = function(){
 
-	var ball = function(x,y,r,xVel,yVel){
-		this.x = x;
-		this.y = y;
-		this.r = r;
-		this.xVel = xVel;
-		this.yVel = yVel;
+	var ball = function(){
+		this.x = [];
+		this.y = [];
+		this.r = [];
+		this.xVel = [];
+		this.yVel = [];
 		this.animate = function(){
-			this.x+=this.xVel;
-			this.y+=this.yVel;
+			for(var s = 0; s < 100; s++){
+				this.x[s]+=this.xVel[s];
+				this.y[s]+=this.yVel[s];
+			}
 		}
 		this.collision = function(){
-			if(this.x > 330){
-				this.xVel *= -1;
-			}
+			for(var c = 0; c<100; c++){
+				if(this.x[c] > 330){
+					this.xVel[c] *= -1;
+				}
 
-			else if(this.x < 0){
-				this.xVel *= -1;
-			}
+				else if(this.x[c] < 0){
+					this.xVel[c] *= -1;
+				}
 
-			else if(this.y < 0){
-				this.yVel *= -1;
-			}
+				else if(this.y[c] < 0){
+					this.yVel[c] *= -1;
+				}
 
-			else if(this.y > 150){
-				this.yVel *= -1;
+				else if(this.y[c] > 150){
+					this.yVel[c] *= -1;
+				}
 			}
 		}
 	}
@@ -108,18 +112,40 @@ window.onload = function(){
 		ctx.clearRect(0,0,1000,1000);
 	}
 
+	function generateRandom(min,max){
+		return Math.floor(Math.random() * max) + min ;
+	}
+
 	setTimeout(actionPerformed,25);
 
-	var ball = new ball(100,100,10,2,2);
+	var ball = new ball();
+
+	for(var g=0; g<50; g++){
+		var x = generateRandom(1,250);
+		var y = generateRandom(1,500);
+		var r = generateRandom(1,10);
+		var xVel = generateRandom(-1,1);
+		var yVel = generateRandom(-1,1);
+		ball.x[g] = x;;
+		ball.y[g]=y;
+		ball.r[g]=r;
+		ball.xVel[g]=xVel;
+		ball.yVel[g]=yVel;
+	}
+
 
 	function actionPerformed(){
+
 		var canvas = getCanvas();
 		var ctx = getContext(canvas);
 
 		clearCanvas(ctx);
 
 		setColor(ctx,"white");
-		drawCircle(ctx,ball.x,ball.y,ball.r);
+
+		for(var i = 0; i<50; i++){
+			drawCircle(ctx,ball.x[i],ball.y[i],ball.r[i]);
+		}
 
 		ball.animate();
 		ball.collision();
