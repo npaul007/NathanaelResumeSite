@@ -277,7 +277,7 @@ body{
 #myCanvas{
 	background: #301630;
 	width: 100%;
-	height: 500px;
+	height: 340px;
 }
 
 #ballgenerator{
@@ -288,7 +288,12 @@ body{
 	margin-bottom:20px;
 	margin-top: 20px;
 	height: 80px;
+	width: 200px;
 	font-size: 2em;
 	background: black;
 	color: white;
+}
+
+#ballGenButtonsDiv{
+	text-align: center;
 }
