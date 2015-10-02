@@ -64,13 +64,13 @@ window.onload = function(){
 		this.xVel = [];
 		this.yVel = [];
 		this.animate = function(){
-			for(var s = 0; s < 100; s++){
+			for(var s = 0; s < 1000; s++){
 				this.x[s]+=this.xVel[s];
 				this.y[s]+=this.yVel[s];
 			}
 		}
 		this.collision = function(){
-			for(var c = 0; c<100; c++){
+			for(var c = 0; c<1000; c++){
 				if(this.x[c] > 330){
 					this.xVel[c] *= -1;
 				}
@@ -119,25 +119,41 @@ window.onload = function(){
 	setTimeout(actionPerformed,25);
 
 	var ball = new ball();
-	var numberOfBalls = 1;
+	var numberOfBalls = 20;
+	loadObject(ball,numberOfBalls);
 
 	function loadObject(ball,numberOfBalls){
 		for(var g=0; g<numberOfBalls; g++){
-			var x = generateRandom(1,250);
-			var y = generateRandom(1,200);
-			var r = generateRandom(1,10);
-			var xVel = generateRandom(-1,1);
-			var yVel = generateRandom(-1,1);
-			ball.x[g] = x;;
-			ball.y[g]=y;
-			ball.r[g]=r;
-			ball.xVel[g]=xVel;
-			ball.yVel[g]=yVel;
+			if(
+				ball.x[g]!=null 
+				&& ball.y[g] !=null 
+				&& ball.r[g] !=null 
+				&& ball.xVel[g] !=null
+				&& ball.yVel[g] !=null
+			  ){
+			   
+			   }else{
+			   		var x = generateRandom(1,250);
+					var y = generateRandom(1,200);
+					var r = generateRandom(1,10);
+					var xVel = generateRandom(-1,1);
+					var yVel = generateRandom(-1,1);
+					ball.x[g] = x;;
+					ball.y[g]=y;
+					ball.r[g]=r;
+					ball.xVel[g]=xVel;
+					ball.yVel[g]=yVel;
+			   }
 		}
 	}
 
 	$('#plus').click(function(){
-		numberOfBalls+=1;
+		numberOfBalls++;
+		loadObject(ball,numberOfBalls);
+	});
+
+	$('#minus').click(function(){
+		numberOfBalls--;
 		loadObject(ball,numberOfBalls);
 	});
 
