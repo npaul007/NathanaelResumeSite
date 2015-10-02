@@ -119,20 +119,27 @@ window.onload = function(){
 	setTimeout(actionPerformed,25);
 
 	var ball = new ball();
+	var numberOfBalls = 1;
 
-	for(var g=0; g<50; g++){
-		var x = generateRandom(1,250);
-		var y = generateRandom(1,500);
-		var r = generateRandom(1,10);
-		var xVel = generateRandom(-1,1);
-		var yVel = generateRandom(-1,1);
-		ball.x[g] = x;;
-		ball.y[g]=y;
-		ball.r[g]=r;
-		ball.xVel[g]=xVel;
-		ball.yVel[g]=yVel;
+	function loadObject(ball,numberOfBalls){
+		for(var g=0; g<numberOfBalls; g++){
+			var x = generateRandom(1,250);
+			var y = generateRandom(1,200);
+			var r = generateRandom(1,10);
+			var xVel = generateRandom(-1,1);
+			var yVel = generateRandom(-1,1);
+			ball.x[g] = x;;
+			ball.y[g]=y;
+			ball.r[g]=r;
+			ball.xVel[g]=xVel;
+			ball.yVel[g]=yVel;
+		}
 	}
 
+	$('#plus').click(function(){
+		numberOfBalls+=1;
+		loadObject(ball,numberOfBalls);
+	});
 
 	function actionPerformed(){
 
@@ -143,7 +150,7 @@ window.onload = function(){
 
 		setColor(ctx,"white");
 
-		for(var i = 0; i<50; i++){
+		for(var i = 0; i<numberOfBalls; i++){
 			drawCircle(ctx,ball.x[i],ball.y[i],ball.r[i]);
 		}
 

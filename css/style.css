@@ -283,3 +283,12 @@ body{
 #ballgenerator{
 	background: purple;
 }
+
+.ballgen{
+	margin-bottom:20px;
+	margin-top: 20px;
+	height: 80px;
+	font-size: 2em;
+	background: black;
+	color: white;
+}
