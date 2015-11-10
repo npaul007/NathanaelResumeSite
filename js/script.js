@@ -148,12 +148,12 @@ window.onload = function(){
 	}
 
 	$('#plus').click(function(){
-		numberOfBalls++;
+		numberOfBalls+=10;
 		loadObject(ball,numberOfBalls);
 	});
 
 	$('#minus').click(function(){
-		numberOfBalls--;
+		numberOfBalls-=10;
 		loadObject(ball,numberOfBalls);
 	});
 
