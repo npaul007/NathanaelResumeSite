@@ -2,10 +2,6 @@
 	text-align: center;
 }
 
-.img-responsive{
-  border-radius:500px;
-}
-
 .right-text{
 	text-align: right;
 }
@@ -120,12 +116,16 @@ p{
 }
 
 .navbar-btn:hover{
-	background: white;
 	color: black;
+	background: white;
 }
 
 .navbar-btn:focus{
 	color: white;
+}
+
+.navbar-btn:focus:hover{
+	color: black;
 }
 
 .navbar{
@@ -230,7 +230,7 @@ body{
 #nyc-pic-div{
 	color: white;
 	background: black;
-	background-image: url("../css/image/img1.jpeg");
+	background-image: url("../css/image/tp-thanksgiving-nyc-20121.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -300,4 +300,8 @@ body{
 
 #ballGenButtonsDiv{
 	text-align: center;
+}
+
+.navbar-btn{
+   	margin-right:40px;
 }
