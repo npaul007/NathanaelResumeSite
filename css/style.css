@@ -1,6 +1,14 @@
+.center-text{
+	text-align: center;
+}
+
 .navbar{
 	background: #330066;
 	border-bottom: .1em solid #330066;
 	padding-bottom: 10px;
 	color: white;
+}
+
+#myPicture{
+
 }
