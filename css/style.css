@@ -7,8 +7,8 @@ body{
 }
 
 .navbar{
-	background: black;
-	border-bottom: .1em solid black;
+	background: #00004d;
+	border-bottom: .1em solid #00004d;
 	padding-top: 5px;
 	color: white;
 }
@@ -19,7 +19,7 @@ body{
 
 .paragraph{
 	text-align: justify;
-	line-height: 25px;
+	line-height: 30px;
 }
 
 img{
@@ -28,8 +28,10 @@ img{
 	padding: 10px;
 }
 
-#expEduHeader{
+#rowHeader{
 	background: #f2f2f2;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 #myPicture{
