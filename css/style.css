@@ -19,6 +19,7 @@ body{
 
 .paragraph{
 	text-align: justify;
+	line-height: 25px;
 }
 
 img{
