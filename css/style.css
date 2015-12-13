@@ -43,5 +43,12 @@ img{
     height: 220px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mainRow{
+	background: #3d0099;
+	color: white;
+	margin-bottom: 22px;
 }
