@@ -46,3 +46,13 @@ img{
 	background-size: cover;
 }
 
+#myPicture{
+	background-size: 155% 100%;
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+}
