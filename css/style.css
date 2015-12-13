@@ -1,3 +1,7 @@
+body{
+	font-family: sans-serif;
+}
+
 .center-text{
 	text-align: center;
 }
@@ -10,12 +14,26 @@
 }
 
 .row{
-	padding-bottom: 20px;
+	padding: 10px;
+}
+
+.paragraph{
+	text-align: justify;
 }
 
 img{
 	margin-right: auto;
 	margin-left: auto;
+	padding: 10px;
+}
+
+#expEduHeader{
+	background: #f2f2f2;
+}
+
+#skillsHeader{
+	color: white;
+	background: #400080;
 }
 
 #skillsRow{
@@ -28,7 +46,3 @@ img{
 	background-size: cover;
 }
 
-.sectionHeader{
-	padding-bottom: 5px;
-	border-bottom: 2px solid #330066;
-}
