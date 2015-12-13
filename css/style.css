@@ -7,9 +7,9 @@ body{
 }
 
 .navbar{
-	background: #330066;
-	border-bottom: .1em solid #330066;
-	padding-bottom: 10px;
+	background: black;
+	border-bottom: .1em solid black;
+	padding-top: 5px;
 	color: white;
 }
 
@@ -31,36 +31,13 @@ img{
 	background: #f2f2f2;
 }
 
-#skillsHeader{
-	color: white;
-	background: #400080;
-}
-
-#skillsRow{
-	padding: 10px;
-	color: white;
-	background: url(../css/image/exotic-polkadots-patterns-7.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#skillsRow>.container>.col-md-6>h3{
-	margin-bottom: 15px;
-}
-
-#skillsRow>.container>.col-md-6>h4{
-	margin-bottom: 15px;
-}
-
 #myPicture{
 	background-size: 155% 100%;
 	background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
-    width: 230px;
-    height: 230px;
+    width: 240px;
+    height: 240px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
