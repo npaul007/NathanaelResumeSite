@@ -22,35 +22,46 @@ p{
 }
 
 #aboutMe, #educationExperience{
-	padding: 35px;
+	padding: 30px;
+}
+
+#aboutMe{
+	padding-top: 30px;
+	background: #0066ff;
+	color: white;
+}
+
+#educationExperience{
+	background: white;
+	color: black;
 }
 
 .paragraph{
 	text-align: justify;
 	line-height: 29px;
+	animation-delay: 3s;
 }
 
 img{
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
+	margin-top: 30px;
 }
 
-#rowHeader{
-	background: #f2f2f2;
-}
 
 #myPicture{
 	background-size: 160% 100%;
 	background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 300px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-delay: .25s;
 }
 
 #mainRow{
@@ -58,6 +69,7 @@ img{
 	color: white;
 	margin-bottom: -22px;
 	margin-top: 50px;
+	height: 700px;
 }
 
 #sectionHeader{
@@ -66,4 +78,14 @@ img{
 
 #a100Emblem{
 	height: 175px;
+}
+
+#myName{
+	font-size: 4em;
+	animation-delay: .5s;
+}
+
+#myQuote{
+	font-size: 1.5em;
+	animation-delay: 1s;
 }

@@ -3,15 +3,18 @@
   <head>
     <title>Nathanael Paulemon</title>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Latest compiled and minified CSS -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <div class="navbar navbar-default navbar-fixed-top">
@@ -23,45 +26,37 @@
     <div class="container-fluid">
       <div class="row" id="mainRow">
         <div class="col-md-12">
-          <div style="background-image:url(css/image/mypic.png)" class="img-responsive" id="myPicture"></div>
+          <div style="background-image:url(css/image/mypic.png)" class="img-responsive animated fadeInDown" id="myPicture"></div>
           <div id="sectionHeader">
-            <h1 class="center-text"><strong>Nathanael Paulemon</strong></h1>
-            <h5 class="center-text">"Let me see the meat and potatoes; the code!"</h5>
+            <h1 class="center-text animated fadeInRight" id="myName"><strong>Nathanael Paulemon</strong></h1>
+            <h5 class="center-text animated fadeInLeft" id="myQuote">"Let me see the meat and potatoes; the code!"</h5>
           </div>
         </div>
       </div>
 
-      <div class="row" id="rowHeader">
-        <h4 class="center-text">About Me</h4>
-      </div>
-
-      <div class="row center-text" id="aboutMe">
-        
+      <div class="row " id="aboutMe">
         <div class="col-md-12">
-          <p class="paragraph">I am an aspiring software developer currently working on obtaining an Associates Degree at Norwalk Community College. Before I had chosen to become a Computer Science major, the idea of being a software engineer seemed very boring to me. It was only until my father showed me the amazing things that I could create through software engineering that I fell in love with this career path. My current objective(other than obtaining my Associates Degree) is to continue to hone my skills and become a well rounded full stack developer. I want to use the skills I have learned to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</p>
+          <h1><strong>About Me</strong></h1>
+          <h4 class="paragraph center-text">I am an aspiring software developer currently working on obtaining an Associates Degree at Norwalk Community College. Before I had chosen to become a Computer Science major, the idea of being a software engineer seemed very boring to me. It was only until my father showed me the amazing things that I could create through software engineering that I fell in love with this career path. My current objective(other than obtaining my Associates Degree) is to continue to hone my skills and become a well rounded full stack developer. I want to use the skills I have learned to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</h4>
         </div>
         
       </div>
 
-
-      <div class="row" id="rowHeader">
-        <h4 class="center-text">Education & Experience</h4>
-      </div>
-
-      <div class="row center-text" id="educationExperience">
+      <div class="row" id="educationExperience">
+        <h1><strong>Education & Experience</strong></h1>
         <div class="col-md-6">
           <img src="css/image/ncc.gif" class="img-responsive">
-          <h2>Associate Computer Science Degree</h2>
-          <h3>Norwalk Community College</h3>
-          <h4>Fall 2014 - Present | Norwalk, CT</h4>
-          <p class="paragraph">I am currently working on obtaining an Associates Degree in Computer Science, as well as a certificate in Web Development. During my time at NCC I learned the concepts of Procedural Programming, Object Oriented Programming and Database Management.</p>
+          <h2 class="center-text">Associate Computer Science Degree</h2>
+          <h3 class="center-text">Norwalk Community College</h3>
+          <h4 class="center-text">Fall 2014 - Present | Norwalk, CT</h4>
+          <p class="paragraph center-text">I am currently working on obtaining an Associates Degree in Computer Science, as well as a certificate in Web Development. During my time at NCC I learned the concepts of Procedural Programming, Object Oriented Programming and Database Management.</p>
         </div>
         <div class="col-md-6">
           <img src="css/image/a100.png" class="img-responsive" id="a100Emblem">
-          <h2>A100 Certified Developer</h2>
-          <h3>Independent Software</h3>
-          <h4>Summer 2015 | Stamford, CT</h4>
-          <p class="paragraph">Received training in agile practices, and modern coding conventions; Also worked in a development team for front end and back end web development of products owned by venture companies that are partnered with Independent Software.The work I had done with venture companies also involved weekly code demos. Also learned industry standard tools like Git, along with a promising javascript framework called MeteorJS.</p>
+          <h2 class="center-text">A100 Certified Developer</h2>
+          <h3 class="center-text">Independent Software</h3>
+          <h4 class="center-text">Summer 2015 | Stamford, CT</h4>
+          <p class="paragraph center-text">Received training in agile practices, and modern coding conventions; Also worked in a development team for front end and back end web development of products owned by venture companies that are partnered with Independent Software.The work I had done with venture companies also involved weekly code demos. Also learned industry standard tools like Git, along with a promising javascript framework called MeteorJS.</p>
         </div>
       </div>
 
