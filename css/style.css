@@ -3,7 +3,11 @@ body{
 }
 
 p{
-	font-size: 1.3em;
+	font-size: 1.2em;
+}
+
+.inline{
+	display: inline;
 }
 
 .center-text{
@@ -34,6 +38,7 @@ p{
 #educationExperience{
 	background: white;
 	color: black;
+	margin-bottom: 52px;
 }
 
 .paragraph{
@@ -77,7 +82,12 @@ img{
 }
 
 #a100Emblem{
-	height: 175px;
+	background-size: 200% 200%;
+    background-position: 50%;
+}
+
+#nccEmblem{
+	height: 240px;
 }
 
 #myName{
@@ -89,3 +99,4 @@ img{
 	font-size: 1.5em;
 	animation-delay: 1s;
 }
+
