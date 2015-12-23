@@ -82,12 +82,12 @@ img{
 }
 
 #a100Emblem{
-	background-size: 200% 200%;
-    background-position: 50%;
+	margin-top: 50px;
+	padding: 15px;
 }
 
 #nccEmblem{
-	height: 240px;
+	padding: 15px;
 }
 
 #myName{
@@ -98,5 +98,10 @@ img{
 #myQuote{
 	font-size: 1.5em;
 	animation-delay: 1s;
+}
+
+.eEpar{
+	position: relative;
+	bottom: -50px;
 }
 
