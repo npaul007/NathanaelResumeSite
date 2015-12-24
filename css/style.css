@@ -24,7 +24,8 @@ p{
 }
 
 .row{
-	padding: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 #aboutMe, #educationExperience{
@@ -44,9 +45,10 @@ p{
 }
 
 .paragraph{
-	text-align: justify;
+	text-align: left;
 	line-height: 29px;
 	animation-delay: 3s;
+        margin-bottom-20px;
 }
 
 img{
@@ -76,7 +78,7 @@ img{
 	color: white;
 	margin-bottom: -22px;
 	margin-top: 50px;
-	height: 700px;
+	height: 750px;
 }
 
 #sectionHeader{
@@ -84,12 +86,12 @@ img{
 }
 
 #a100Emblem{
-	margin-top: 50px;
+
 	padding: 15px;
 }
 
 #nccEmblem{
-	padding: 15px;
+	padding: 20px;
 }
 
 #myName{
@@ -102,8 +104,33 @@ img{
 	animation-delay: 1s;
 }
 
-.eEpar{
+@media screen and (max-width: 400px){
+	#myName{
+		font-size: 2em;
+		animation-delay: .5s;
+	}
+
+	#myQuote{
+		font-size: 1em;
+		animation-delay: .5s;
+	}
+
+	#mainRow{
+		height: 500px;
+	}
+
+}
+
+
+#eEpar1{
 	position: relative;
-	bottom: -50px;
+	bottom: -20px;
+	font-size: 100%;
+}
+
+#eEpar2{
+	position: relative;
+	bottom: -30px;
+	font-size: 100%;
 }
 
