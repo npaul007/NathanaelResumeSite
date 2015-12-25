@@ -93,6 +93,11 @@ img{
 	padding: 30px;
 }
 
+#a100Emblem, #nccEmblem{
+        position:relative;
+        top:-20px;
+}
+
 #myName{
 	font-size: 4em;
 	animation-delay: .5s;

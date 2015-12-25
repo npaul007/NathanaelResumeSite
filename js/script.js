@@ -1,11 +1,18 @@
 $(document).ready(function(){
 
-	contact.click(function(e) {
+	/* contact.click(function(e) {
 	  $("html, body").animate({ scrollTop:$("#contact").offset().top-45 }, "slow");
 	  closeModal();
 	  return false;
-	});
-
+	}); */
+	
+	var windowsize = $(window).width();
+	if (windowsize > 1000) {
+		$('#myPicture').addClass('animated');
+		$('#myName').addClass('animated');
+		$('#myQuote').addClass('animated');
+	}
+	
 });
 
 
