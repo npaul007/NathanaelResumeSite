@@ -86,17 +86,22 @@ img{
 	height: 750px;
 }
 
-#skillsRow{
+#planetRow{
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: center 50px; 
 	color: white;
-	height: 750px;
+	height: 350px;
 	padding-top: 50px;
 }
 
 .icon{
-	font-size: 10em;
-	text-align: center;
+	font-size: 750%;
+	margin: 10px;
+}
+
+#skillsRow{
+	margin-top: 20px;
 }
 
 #sectionHeader{
