@@ -89,19 +89,20 @@ img{
 #planetRow{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center 50px; 
+	background-position: top 30px; 
 	color: white;
 	height: 350px;
-	padding-top: 50px;
 }
 
 .icon{
 	font-size: 750%;
-	margin: 10px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
 #skillsRow{
-	margin-top: 20px;
+	margin-top: 12px;
 }
 
 #sectionHeader{
