@@ -105,10 +105,12 @@ img{
 }
 
 .icon{
-	font-size: 750%;
+	font-size: 700%;
 	display: inline-block;
-	margin-bottom: 40px;
-	margin-left: 30px;
+	margin: 40px;
+	background: black;
+	padding: 20px;
+	border-radius: 20px;
 }
 
 #skillsRow{
@@ -116,7 +118,7 @@ img{
 }
 
 .skillHeader{
-	margin-bottom: 45px;
+	font-weight: bold;
 }
 
 #sectionHeader{
