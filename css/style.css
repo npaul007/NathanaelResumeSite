@@ -107,12 +107,16 @@ img{
 .icon{
 	font-size: 750%;
 	display: inline-block;
-	margin-top: 10px;
-	margin-left: 20px;
+	margin-bottom: 40px;
+	margin-left: 30px;
 }
 
 #skillsRow{
 	margin-top: 12px;
+}
+
+.skillHeader{
+	margin-bottom: 45px;
 }
 
 #sectionHeader{
