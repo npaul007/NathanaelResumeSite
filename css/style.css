@@ -9,12 +9,13 @@ p{
 	font-size: 1.1em;
 }
 
-.thumbnail{
-	box-shadow: 1px 1px 1px  gray;
+.row{
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.spaceBottom{
-	padding-bottom: 20px;
+.thumbnail{
+	box-shadow: 1px 1px 1px  gray;
 }
 
 .inline{
@@ -117,12 +118,8 @@ img{
 	margin-top: 12px;
 }
 
-.skillHeader{
-	font-weight: bold;
-}
-
-#sectionHeader{
-	padding-bottom: 20px;
+.sectionHeader{
+	margin-bottom: 50px;
 }
 
 #a100Emblem{
@@ -148,7 +145,7 @@ img{
 	animation-delay: 1s;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 460px){
 	#myName{
 		font-size: 2em;
 		animation-delay: .5s;
@@ -159,10 +156,18 @@ img{
 		animation-delay: .5s;
 	}
 
+}
+
+@media screen and (max-width: 800px){
 	#mainRow{
 		height: 500px;
 	}
 
+	.icon{
+		font-size: 500%;
+		padding: 20px;
+		margin: 10px;
+	}
 }
 
 
