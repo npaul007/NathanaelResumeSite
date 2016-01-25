@@ -3,6 +3,7 @@
 
 body{
 	font-family: 'Open Sans',sans-serif;
+	font-size: 140%;
 }
 
 p{
@@ -94,7 +95,7 @@ img{
 	color: white;
 	margin-bottom: -22px;
 	margin-top: 30px;
-	height: 750px;
+	height: 100vh;
 }
 
 #planetRow{
