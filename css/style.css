@@ -26,6 +26,7 @@ p{
 
 .thumbnail:hover{
 	text-decoration: none;
+	color: black;
 }
 
 .inline{
@@ -62,7 +63,7 @@ p{
 }
 
 #aboutMe{
-	padding-top: 50px;
+	padding-top: 30px;
 	color: white;
 	background: #00244d;
 }
@@ -95,7 +96,7 @@ img{
     height: 300px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 40px;
+    margin-top: 10vh;
     margin-bottom: 30px;
     animation-delay: .25s;
 }
@@ -131,7 +132,7 @@ img{
 }
 
 .sectionHeader{
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 }
 
 #a100Emblem, #nccEmblem{
