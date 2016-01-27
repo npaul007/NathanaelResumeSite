@@ -98,10 +98,10 @@ img{
     border-radius: 80%;
     margin-right: auto;
     margin-left: auto;
-	height: 50%;
-	width: 50%;
+	height: 40%;
+	width: 40%;
     margin-top: 10vh;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #mainRow{
@@ -168,8 +168,8 @@ img{
 	}
 
 	#myPicture{
-		height: 75%;
-		width: 75%;
+		height: 78%;
+		width: 78%;
 	}
 
 	#mainRow{
