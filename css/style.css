@@ -20,8 +20,12 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	color: black;
+	width: 102%;
 	text-decoration: none;
-	padding: 20px;
+}
+
+.thumbnail>p{
+	padding: 13px;
 }
 
 .thumbnail:hover{
@@ -91,23 +95,20 @@ img{
 	background-size: 160% 100%;
 	background-repeat: no-repeat;
     background-position: 50%;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    border-radius: 80%;
     margin-right: auto;
     margin-left: auto;
+	height: 50%;
+	width: 50%;
     margin-top: 10vh;
     margin-bottom: 30px;
-    animation-delay: .25s;
 }
 
 #mainRow{
     background-attachment: fixed;
 	background-position: center; 
 	color: white;
-	margin-bottom: -22px;
-	margin-top: 30px;
-	height: 100vh;
+	height: 102vh;
 }
 
 #planetRow{
@@ -151,12 +152,10 @@ img{
 
 #myName{
 	font-size: 4em;
-	animation-delay: .5s;
 }
 
 #myQuote{
 	font-size: 1.5em;
-	animation-delay: 1s;
 }
 
 @media screen and (max-width: 1000px){
@@ -167,13 +166,21 @@ img{
 	#myQuote{
 		font-size: 1em;
 	}
+
+	#myPicture{
+		height: 75%;
+		width: 75%;
+	}
+
+	#mainRow{
+	    background-attachment: fixed;
+		background-position: center; 
+		color: white;
+		height: 100%;
+	}
 }
 
 @media screen and (max-width: 800px){
-	#mainRow{
-		height: 100vh;
-	}
-
 	.icon{
 		font-size: 500%;
 		padding: 20px;
