@@ -1,8 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 body{
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Raleway',sans-serif;
 	font-size: 140%;
 }
 
@@ -15,9 +14,12 @@ p{
 }
 
 .thumbnail{
-	margin-top: 30px;
+	margin-top: 10px;
 	padding: 15px;
 	color: black;
+	width: 103%;
+	position: relative;
+	left: -10px;
 }
 
 .thumbnail:hover{
@@ -65,8 +67,8 @@ p{
 
 #aboutMe{
 	padding-top: 30px;
-	color: white;
-	background: #00244d;
+	color: black;
+	background: white;
 }
 
 #educationExperience{
@@ -107,7 +109,7 @@ img{
 	background-attachment: fixed;
 	background-position: top 30px; 
 	color: white;
-	height: 360px;
+	height: 260px;
 }
 
 .icon{
@@ -161,6 +163,16 @@ img{
 		font-size: 500%;
 		padding: 20px;
 		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.thumbnail{
+		width: 115%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		left: -22px;
 	}
 }
 
