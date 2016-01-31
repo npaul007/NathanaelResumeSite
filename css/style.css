@@ -16,6 +16,13 @@ p{
 
 .thumbnail{
 	margin-top: 30px;
+	padding: 15px;
+	color: black;
+}
+
+.thumbnail:hover{
+	text-decoration: none;
+	color: black;
 }
 
 .row{
