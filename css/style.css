@@ -11,7 +11,7 @@ p{
 
 .col-md-6{
 	padding-bottom: 20px;
-	animation-delay: 2s;
+	animation-delay: 2.2s;
 }
 
 .thumbnail{
@@ -80,6 +80,10 @@ p{
 #educationExperience{
 	background:	#e5f1ff;
 	color: color;
+}
+
+#expEduHeader{
+	animation-delay:1s;
 }
 
 .paragraph{
