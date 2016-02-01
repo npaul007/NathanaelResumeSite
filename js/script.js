@@ -20,12 +20,12 @@ $(document).ready(function(){
 	];
 
 	for(var j = 0; j < sectionsAnimated.length; j++)
-		$(sectionsAnimated[j]).hide();
+		$(sectionsAnimated[j]+' *').hide();
 
 	$(window).scroll(function(){
-		for(var i = 0; i < sectionsAnimated.length+1; i++){
+		for(var i = 0; i < sectionsAnimated.length; i++){
 			if(ifSeenOnScreen(sectionsAnimated[i])){
-				$(sectionsAnimated[i]).show();
+				$(sectionsAnimated[i]+' *').show();
 				$(sectionsAnimated[i]+" *").addClass('animated');
 			}
 		}
