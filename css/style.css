@@ -2,7 +2,7 @@
 
 body{
 	font-family: 'Raleway',sans-serif;
-	font-size: 140%;
+	font-size: medium;
 }
 
 p{
@@ -11,7 +11,6 @@ p{
 
 .col-md-6{
 	padding-bottom: 20px;
-	animation-delay: 2.2s;
 }
 
 .thumbnail{
@@ -21,6 +20,10 @@ p{
 	width: 103%;
 	position: relative;
 	left: -10px;
+}
+
+.thumbnail img{
+	width: 100%;
 }
 
 .thumbnail:hover{
@@ -79,24 +82,18 @@ p{
 
 #educationExperience{
 	background:	#e5f1ff;
-	color: color;
-}
-
-#expEduHeader{
-	animation-delay:1s;
+	color: black;
 }
 
 .paragraph{
 	text-align: left;
 	line-height: 29px;
-	animation-delay: .5s;
     margin-bottom:20px;
 }
 
 img{
 	margin-right: auto;
 	margin-left: auto;
-	padding: 5px;
 }
 
 #myPicture{
@@ -104,7 +101,6 @@ img{
     margin-left: auto;
     margin-top: 11vh;
     margin-bottom: 10px;
-    animation-delay: 1.2s;
 }
 
 #mainRow{
@@ -137,12 +133,10 @@ img{
 
 #myName{
 	font-size: 4em;
-	animation-delay: .5s;
 }
 
 #myQuote{
 	font-size: 1.5em;
-	animation-delay: .75s;
 }
 
 .alignEduExpPics{
