@@ -108,6 +108,7 @@ img{
 	background-position: center; 
 	color: white;
 	height: 102vh;
+	margin-bottom: 20px;
 }
 
 #planetRow{
@@ -119,7 +120,7 @@ img{
 }
 
 .icon{
-	font-size: 700%;
+	font-size: 500%;
 	display: inline-block;
 	margin: 40px;
 	background: black;
@@ -145,7 +146,7 @@ img{
 	margin-bottom:38px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 980px){
 	#myName{
 		font-size: 2em;
 	}
@@ -160,11 +161,9 @@ img{
 		color: white;
 		height: 100%;
 	}
-}
 
-@media screen and (max-width: 800px){
 	.icon{
-		font-size: 500%;
+		font-size: 470%;
 		padding: 20px;
 		margin: 10px;
 	}
@@ -178,6 +177,11 @@ img{
 		position: relative;
 		left: -22px;
 	}
+
+	body{
+		font-size: small;
+	}
+
 }
 
 
