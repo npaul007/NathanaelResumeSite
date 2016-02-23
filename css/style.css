@@ -2,11 +2,7 @@
 
 body{
 	font-family: 'Raleway',sans-serif;
-	font-size: medium;
-}
-
-p{
-	font-size: 1.1em;
+	font-size: large;
 }
 
 .col-md-6{
@@ -54,6 +50,10 @@ p{
 	text-align: center;
 }
 
+.left-text{
+	text-align: left;
+}
+
 .navbar{
 	background: #000c1a;
 	border-bottom: 1px solid #001833;
@@ -63,9 +63,9 @@ p{
 }
 
 #menuButton{
-	padding-right: 20px;
+	padding: 20px;
 	position: relative;
-	top: -32px;
+	top: -54px;
 	font-size: 2em;
 	float: right;
 }
@@ -99,8 +99,8 @@ img{
 #myPicture{
     margin-right: auto;
     margin-left: auto;
-    margin-top: 11vh;
     margin-bottom: 10px;
+	margin-top: 9%;
 }
 
 #mainRow{
@@ -108,7 +108,7 @@ img{
 	background-position: center; 
 	color: white;
 	height: 102vh;
-	margin-bottom: 20px;
+	width: 100wh;
 }
 
 #planetRow{
@@ -120,7 +120,7 @@ img{
 }
 
 .icon{
-	font-size: 500%;
+	font-size: 550%;
 	display: inline-block;
 	margin: 40px;
 	background: black;
@@ -182,6 +182,13 @@ img{
 		font-size: small;
 	}
 
+	#menuButton{
+	padding: 20px;
+	position: relative;
+	top: -52px;
+	font-size: 2em;
+	float: right;
 }
 
+}
 
