@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
+#wrapper{
+	overflow-x: hidden;
+}
+
 body{
 	font-family: 'Raleway',sans-serif;
 	font-size: 175%;
@@ -112,11 +116,9 @@ img{
 	background-position: center; 
 	color: white;
 	height: 102vh;
-	width: 100wh;
 }
 
 #planetRow{
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top 30px; 
 	color: white;
