@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 #wrapper{
-	overflow-x: hidden;
+	overflow-x:hidden;
 }
 
 body{
 	font-family: 'Raleway',sans-serif;
 	font-size: 175%;
 	line-height: 170%;
+	overflow-x: hidden;
 }
 
 .col-md-6{
@@ -28,6 +29,11 @@ body{
 }
 
 .thumbnail:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.thumbnail:link{
 	text-decoration: none;
 	color: black;
 }
@@ -97,6 +103,7 @@ body{
 
 .paragraph{
     margin-bottom:20px;
+    color: black;
 }
 
 img{
@@ -187,7 +194,7 @@ img{
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
-		left: -22px;
+		left: -20px;
 	}
 
 	#menuButton{
