@@ -22,7 +22,6 @@ body{
 	width: 103%;
 	position: relative;
 	left: -10px;
-        box-shadow: 2px 2px 2px gray;
 }
 
 .thumbnail img{
@@ -72,7 +71,7 @@ body{
 	padding-top: 5px;
 	color: white;
 	height: 30px;
-        box-shadow: 0px 2.5px 2.5px #262626;
+    /*box-shadow: 2px 2px 5px #888888;*/
 }
 
 #menuButton{
@@ -208,4 +207,3 @@ img{
 	}
 
 }
-
