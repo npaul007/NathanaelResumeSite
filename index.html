@@ -33,7 +33,7 @@
       <div class="row" id="mainRow" style="background-image:url(css/image/nebula.jpg)">
         <div class="container">
           <div class="col-md-12">
-            <img src="css/image/mypic.png" class="img-responsive img-circle fadeInUp" id="myPicture" style="animation-delay:.4s"/>
+            <img src="css/image/mypic.png" class="img-responsive img-circle " id="myPicture" style="animation-delay:.4s"/>
             <div id="sectionHeader">
               <h2 class="center-text" id="myName"><strong>Nate Paulemon</strong></h2>
               <h5 class="center-text" id="myQuote">"Let me see the meat and potatoes; the code!"</h5>
@@ -43,42 +43,38 @@
       </div>
 
       <div class="row " id="aboutMe">
-        <div class="container">
-          <div class="col-md-12">
-            <header>
-               <h1 class="center-text fadeInUp" id="aboutMeHeader"><strong>About Me</strong></h1>
-            </header>
-            <article>
-              <p class="paragraph center fadeInUp" id="aboutMePar">I am an aspiring software developer currently working on obtaining an Associates Degree in Computer Science at Norwalk Community College. Before I had decided to choose Computer Science as my major, the idea of being a Software Engineer seemed very boring to me. It was only until I opened my eyes that I realized that software has an impact on everything in our society today, that I fell in love with this career path. Software Engineering allows people to make an enormous difference in the world, at the press of a button. Because of this fact, I want to use this outlet in order to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</p>
-            </article>
-         </div>
+        <div class="container card">
+          <header>
+             <h1 class="center-text  header"><strong>About Me</strong></h1>
+          </header>
+          <article>
+            <p class="center paragraph lineCard">I am an aspiring software developer currently working on obtaining an Associates Degree in Computer Science at Norwalk Community College. Before I had decided to choose Computer Science as my major, the idea of being a Software Engineer seemed very boring to me. It was only until I opened my eyes that I realized that software has an impact on everything in our society today, that I fell in love with this career path. Software Engineering allows people to make an enormous difference in the world, at the press of a button. Because of this fact, I want to use this outlet in order to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</p>
+          </article>
         </div>
       </div>
 
-      <div class="row" id="educationExperience">
-        <div class="container">
-          <header id="expEduHeader" class="fadeInUp">
-            <h1 class="center-text block"><strong>Education</strong></h1>
-            <h1 class="center-text block"><strong>and</strong></h1>
-            <h1 class="center-text block"><strong>Experience</strong></h1>
-          </header>
-          <div class="col-md-6 fadeInUp">
-            <a href="http://norwalk.edu/cs/" class="thumbnail alignEduExpPics" target="_blank" id="expEdu1">
-              <img src="css/image/nccpanoramic.jpg" class="img-responsive">
-              <h2 class="center-text">Associate Computer Science Degree</h2>
-              <h3 class="center-text">Norwalk Community College</h3>
-              <h4 class="center-text">Fall 2014 - Present | Norwalk, CT</h4>
-              <p class="paragraph">I am currently working on obtaining an Associates Degree in Computer Science, along with a certificate in Web Development. During my time at Norwalk Community College I learned the concepts of Procedural Programming, Object Oriented Programming along with Database Management.</p>
-            </a>
+      <div class="row">
+        <div class="container card">
+         <header>
+            <h1 class="center-text header"><strong>Experience and Education</strong></h1>
+         </header>
+          <div class="col-md-6 lineCard">
+              <a href="http://norwalk.edu/cs/" class="alignEduExpPics cardLink" target="_blank" id="expEdu1">
+                <img src="css/image/nccpanoramic.jpg" class="img-responsive">
+                <h2 class="center-text">Associate Computer Science Degree</h2>
+                <h3 class="center-text">Norwalk Community College</h3>
+                <h4 class="center-text">Fall 2014 - Present | Norwalk, CT</h4>
+                <p class="">I am currently working on obtaining an Associates Degree in Computer Science, along with a certificate in Web Development. During my time at Norwalk Community College I learned the concepts of Procedural Programming, Object Oriented Programming along with Database Management.</p>
+              </a>
           </div>
-          <div class="col-md-6 fadeInUp">
-            <a href="https://credly.com/credit/12779900" class="thumbnail alignEduExpPics" target="_blank" id="expEdu2">
-              <img src="css/image/17648_692430714234000_8312372950095238784_n.jpg" class="img-responsive">
-              <h2 class="center-text">A100 Certified Developer</h2>
-              <h3 class="center-text">Independent Software</h3>
-              <h4 class="center-text">Summer 2015 | Stamford, CT</h4>
-              <p class="paragraph">Received training in agile practices, and modern coding conventions; Also worked in a development team for front end and back end web development of products owned by venture companies that are partnered with Independent Software.The program also rventure teams to do weekly code demos.</p>
-            </a>
+          <div class="col-md-6 lineCard">
+              <a href="https://credly.com/credit/12779900" class="alignEduExpPics cardLink" target="_blank" id="expEdu2">
+                <img src="css/image/17648_692430714234000_8312372950095238784_n.jpg" class="img-responsive">
+                <h2 class="center-text">A100 Certified Developer</h2>
+                <h3 class="center-text">Independent Software</h3>
+                <h4 class="center-text">Summer 2015 | Stamford, CT</h4>
+                <p class="">Received training in agile practices, and modern coding conventions; Also worked in a development team for front end and back end web development of products owned by venture companies that are partnered with Independent Software.The program also rventure teams to do weekly code demos.</p>
+              </a>
           </div>
         </div>
       </div>
@@ -88,31 +84,37 @@
 
       <div class="row " id="skillsRow">
         <div class="container">
+          <div class="col-md-12 card">
           <header>
-            <h1 class="border-bottom  center-text"><strong>Skills</strong></h1>
+            <h1 class="center-text header"><strong>Skills</strong></h1>
           </header>
-          <div class="col-md-12">
-            <h3 class="center-text skillHeader">Programming Languages</h3>
-            <div class="center-text">
-             <i class="devicon-javascript-plain icon colored"></i>
-             <i class="devicon-java-plain-wordmark icon colored"></i>
-             <i class="devicon-php-plain icon colored"></i>
-             <i class="devicon-c-plain icon colored"></i>
+            <div class="lineCard">
+              <h3 class="center-text skillHeader">Programming Languages</h3>
+              <div class="center-text">
+               <i class="devicon-javascript-plain icon colored"></i>
+               <i class="devicon-java-plain-wordmark icon colored"></i>
+               <i class="devicon-php-plain icon colored"></i>
+               <i class="devicon-c-plain icon colored"></i>
+              </div>
             </div>
-            <h3 class="center-text skillHeader">Markup Languages and Libraries</h3>
-            <div class="center-text">
-             <i class="devicon-html5-plain-wordmark icon colored"></i>
-             <i class="devicon-css3-plain-wordmark icon colored"></i>
-             <i class="devicon-bootstrap-plain-wordmark icon colored"></i>
-             <i class="devicon-jquery-plain-wordmark icon colored"></i>
+            <div class="lineCard">
+              <h3 class="center-text skillHeader">Markup Languages and Libraries</h3>
+              <div class="center-text">
+               <i class="devicon-html5-plain-wordmark icon colored"></i>
+               <i class="devicon-css3-plain-wordmark icon colored"></i>
+               <i class="devicon-bootstrap-plain-wordmark icon colored"></i>
+               <i class="devicon-jquery-plain-wordmark icon colored"></i>
+              </div>
             </div>
-            <h3 class="center-text skillHeader">Technologies</h3>
-            <div class="center-text">
-             <i class="devicon-git-plain-wordmark icon colored"></i>
-             <i class="devicon-mongodb-plain-wordmark icon colored"></i>
-             <i class="devicon-meteor-plain-wordmark icon colored"></i>
-             <i class="devicon-nodejs-plain-wordmark icon colored"></i>
-             <i class="devicon-mysql-plain-wordmark icon colored"></i>
+            <div class="lineCard">
+              <h3 class="center-text skillHeader">Technologies</h3>
+              <div class="center-text">
+               <i class="devicon-git-plain-wordmark icon colored"></i>
+               <i class="devicon-mongodb-plain-wordmark icon colored"></i>
+               <i class="devicon-meteor-plain-wordmark icon colored"></i>
+               <i class="devicon-nodejs-plain-wordmark icon colored"></i>
+               <i class="devicon-mysql-plain-wordmark icon colored"></i>
+              </div>
             </div>
           </div>
         </div>

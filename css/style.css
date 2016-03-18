@@ -11,29 +11,51 @@ body{
 	overflow-x: hidden;
 }
 
+.header{
+	width: 100%;
+	background: #0066cc;
+	color: white;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.card{
+	margin: 15px auto 15px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.lineCard{
+	border: 1px solid #ccc;
+	margin: 15px auto 15px auto;
+	padding: 15px;
+}
+
+.paragraph{
+	padding: 8px;
+}
+
 .col-md-6{
 	padding-bottom: 20px;
 }
 
-.thumbnail{
-	margin-top: 10px;
-	padding: 15px;
+.cardLink{
 	color: black;
 	width: 103%;
 	position: relative;
-	left: -10px;
 }
 
-.thumbnail img{
+.cardLink img{
 	width: 100%;
 }
 
-.thumbnail:hover{
+.cardLink:hover{
 	text-decoration: none;
 	color: black;
 }
 
-.thumbnail:link{
+.cardLink:link{
 	text-decoration: none;
 	color: black;
 }
@@ -82,41 +104,13 @@ body{
 	float: right;
 }
 
-#aboutMe, #educationExperience,#skillsRow{
-	padding: 30px;
-}
-
-#aboutMe{
-	padding-top: 30px;
-	color: black;
-	background: white;
-}
-
-#aboutMePar{
-	width: 85%;
-	text-align: center;
-}
-
-#educationExperience{
-	background: #cce6ff;
-	color: black;
-}
-
-.paragraph{
-    margin-bottom:20px;
-    color: black;
-}
-
 img{
 	margin-right: auto;
 	margin-left: auto;
 }
 
-#myPicture{
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-	margin-top: 11%;
+#aboutMe{
+	margin-bottom: -10;
 }
 
 #mainRow{
@@ -124,6 +118,11 @@ img{
 	background-position: center; 
 	color: white;
 	height: 102vh;
+	margin-top:40px;
+}
+
+#myPicture{
+  	margin: 16vh auto 0 auto;
 }
 
 #planetRow{
@@ -134,11 +133,19 @@ img{
 }
 
 .icon{
-	font-size: 550%;
+	font-size: 800%;
 	display: inline-block;
-	margin: 40px;
+	margin: 0;
 	background: black;
 	padding: 20px;
+}
+
+.skillHeader{
+	width: 60%;
+	background: #0066cc;
+	color: white;
+	padding: 20px;
+	margin: 10px auto 10px auto;
 }
 
 #skillsRow{
@@ -175,6 +182,10 @@ img{
 		background-position: center; 
 		color: white;
 		height: 100%;
+	}
+
+	#myPicture{
+		margin: 0 auto 0 auto;
 	}
 
 	#aboutMePar{
