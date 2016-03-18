@@ -16,7 +16,7 @@ body{
 	background: #0066cc;
 	color: white;
 	padding: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 
 .card{
@@ -43,6 +43,7 @@ body{
 .cardLink{
 	color: black;
 	width: 103%;
+	height: 500px;
 	position: relative;
 }
 
@@ -141,7 +142,7 @@ img{
 }
 
 .skillHeader{
-	width: 60%;
+	width: 65%;
 	background: #0066cc;
 	color: white;
 	padding: 20px;
