@@ -2,12 +2,12 @@ $(document).ready(function(){
 	$('#sideBarMenu').hide();
 
 	$('#menuButton').click(function(){
-		$('#sideBarMenu').toggle('slide');
+		$('#sideBarMenu').slideToggle();
 		menuButtonIconStatus();
 	});
 
 	$('#sideBarMenuContents').click(function(){
-		$('#sideBarMenu').toggle('slide');
+		$('#sideBarMenu').slideToggle();
 		menuButtonIconStatus();
 	});
 });
