@@ -11,12 +11,19 @@ body{
 	overflow-x: hidden;
 }
 
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
 .header{
 	width: 100%;
 	background: #0066cc;
 	color: white;
 	padding: 10px;
-	margin-bottom: 35px;
 }
 
 .card{
@@ -24,12 +31,6 @@ body{
 	padding: 20px;
 	border: 1px solid #ccc;
 	box-shadow: 5px 5px 5px #ccc;
-}
-
-.lineCard{
-	border: 1px solid #ccc;
-	margin: 15px auto 15px auto;
-	padding: 15px;
 }
 
 .paragraph{
@@ -103,15 +104,39 @@ body{
 	top: -56px;
 	font-size: 2em;
 	float: right;
+	cursor: pointer;
+}
+
+#sideBarMenu{
+	background: black;
+	color: white;
+	float: right;
+	position: relative;
+	top: 3px;
+	right: -85px;
+	height: 100vh;
+}
+
+#sideBarMenuContents >a {
+	color: white;
+}
+
+#sideBarMenuContents >a > li{
+	font-size: 2em;
+	padding: 15px;
+	text-align: left;
+	list-style-type:none;
+	border-bottom: 2px solid white; 
+}
+
+#sideBarMenuContents >a > li:hover{
+	color: black;
+	background: white;
 }
 
 img{
 	margin-right: auto;
 	margin-left: auto;
-}
-
-#aboutMe{
-	margin-bottom: -10;
 }
 
 #mainRow{
@@ -136,7 +161,7 @@ img{
 .icon{
 	font-size: 800%;
 	display: inline-block;
-	margin: 0;
+	margin: 5px;
 	background: black;
 	padding: 20px;
 }
@@ -199,9 +224,27 @@ img{
 		padding: 12px;
 		margin: 10px;
 	}
+
+	#sideBarMenu{
+		background: black;
+		color: white;
+		float: right;
+		position: relative;
+		top: 5px;
+		right: -85px;
+		height: 100vh;
+	}
+
+	#sideBarMenuContents >a > li{
+		font-size: 1.5em;
+		padding: 15px;
+		text-align: left;
+		list-style-type:none;
+		border-bottom: 2px solid white; 
+	}
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 	.thumbnail{
 		width: 115%;
 		margin-left: auto;
@@ -216,6 +259,23 @@ img{
 		top: -55px;
 		font-size: 2em;
 		float: right;
+	}
+
+	#sideBarMenu{
+		background: black;
+		color: white;
+		position: relative;
+		top: -70px;
+		right: -85px;
+		height: 100vh;
+	}
+
+	#sideBarMenuContents >a > li{
+		font-size: 1.5em;
+		padding: 15px;
+		text-align: left;
+		list-style-type:none;
+		border-bottom: 2px solid white; 
 	}
 
 }

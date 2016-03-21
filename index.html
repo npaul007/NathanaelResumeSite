@@ -15,25 +15,34 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
-      <div id="wrapper">
+    <div id="wrapper">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <strong><h4>Nate Paulemon</h4></strong>
+          
           <i class="fa fa-bars" id="menuButton"></i>
+
+          <div id="sideBarMenu">
+            <ul id="sideBarMenuContents">
+              <a href="#aboutMe"><li>About Me</li></a>
+              <a href="#experienceAndEducation"><li>Experience and Education</li></a>
+              <a href="#skills"><li>Skills</li></a>
+              <a href=""><li>Portfolio</li></a>
+              <a href=""><li>Contact</li></a>
+            </ul>
+          </div>
         </div>
       </nav>
 
       <div class="row" id="mainRow" style="background-image:url(css/image/nebula.jpg)">
         <div class="container">
           <div class="col-md-12">
-            <img src="css/image/mypic.png" class="img-responsive img-circle " id="myPicture" style="animation-delay:.4s"/>
+            <img src="css/image/mypic.png" class="img-responsive img-circle" id="myPicture"/>
             <div id="sectionHeader">
               <h2 class="center-text" id="myName"><strong>Nate Paulemon</strong></h2>
               <h5 class="center-text" id="myQuote">"Let me see the meat and potatoes; the code!"</h5>
@@ -42,18 +51,18 @@
         </div>
       </div>
 
-      <div class="row " id="aboutMe">
+      <div class="row" id="aboutMe">
         <div class="container card">
           <header>
-             <h1 class="center-text  header"><strong>About Me</strong></h1>
+             <h1 class="center-text header"><strong>About Me</strong></h1>
           </header>
-          <article class="lineCard">
+          <article>
             <p class="center paragraph">I am an aspiring software developer currently working on obtaining an Associates Degree in Computer Science at Norwalk Community College. Before I had decided to choose Computer Science as my major, the idea of being a Software Engineer seemed very boring to me. It was only until I opened my eyes that I realized that software has an impact on everything in our society today, that I fell in love with this career path. Software Engineering allows people to make an enormous difference in the world, at the press of a button. Because of this fact, I want to use this outlet in order to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</p>
           </article>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="experienceAndEducation">
         <div class="container card">
          <header>
             <h1 class="center-text header"><strong>Experience and Education</strong></h1>
@@ -82,13 +91,13 @@
       <div class="row" style="background-image:url(css/image/352397.jpg)" id="planetRow">
       </div>
 
-      <div class="row " id="skillsRow">
-        <div class="container">
-          <div class="col-md-12 card">
+      <div class="row" id="skills">
+        <div class="container card">
           <header>
             <h1 class="center-text header"><strong>Skills</strong></h1>
           </header>
-            <div class="lineCard">
+          <div class="col-md-12">
+            <div>
               <h3 class="center-text skillHeader">Programming Languages</h3>
               <div class="center-text">
                <i class="devicon-javascript-plain icon colored"></i>
@@ -97,7 +106,7 @@
                <i class="devicon-c-plain icon colored"></i>
               </div>
             </div>
-            <div class="lineCard">
+            <div>
               <h3 class="center-text skillHeader">Markup Languages and Libraries</h3>
               <div class="center-text">
                <i class="devicon-html5-plain-wordmark icon colored"></i>
@@ -106,7 +115,7 @@
                <i class="devicon-jquery-plain-wordmark icon colored"></i>
               </div>
             </div>
-            <div class="lineCard">
+            <div>
               <h3 class="center-text skillHeader">Technologies</h3>
               <div class="center-text">
                <i class="devicon-git-plain-wordmark icon colored"></i>
@@ -119,6 +128,6 @@
           </div>
         </div>
       </div>
-      </div>
+    </div>
   </body>
 </html>
