@@ -1,4 +1,6 @@
 $(document).ready(function(){
+	$('#sideBarMenu').css({'height':($(window).height())+'px'});
+
 	$('#sideBarMenu').hide();
 
 	$('#menuButton').click(function(){
