@@ -24,6 +24,7 @@ a:hover{
 	background: #0066cc;
 	color: white;
 	padding: 10px;
+	margin-top: -1px;
 }
 
 .card{
@@ -174,10 +175,22 @@ img{
 #icon-sql{
 	position: relative;
 	bottom: 50px;
-	margin: 5px;
+	margin: 5px 5px -45px 5px;
 	background: black;
 	padding: 20px;
 	display: inline-block;
+}
+
+@media screen and(max-width: 1199px){
+		#icon-sql{
+		position: relative;
+		bottom: 0px;
+		margin: 5px;
+	}
+
+	body{
+		color: red;
+	}
 }
 
 @media screen and (max-width: 1200px){
@@ -262,7 +275,7 @@ img{
 }
 
 #myQuote{
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin-bottom: 25px;
 }
 
@@ -324,5 +337,15 @@ img{
 		top: -55px;
 		font-size: 2em;
 		float: right;
+	}
+
+	#sideBarMenu{
+		background: black;
+		color: white;
+		width: 65%;
+		padding: 10px;
+		float: right;
+		position: relative;
+		left: 82px;
 	}
 }
