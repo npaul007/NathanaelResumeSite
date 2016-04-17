@@ -129,6 +129,8 @@ a:hover{
 	list-style-type: none;
 	padding: 2px;
 	text-align: center;
+	position: relative;
+	right: -2px;
 }
 
 #sideBarMenuContents > a > li{
