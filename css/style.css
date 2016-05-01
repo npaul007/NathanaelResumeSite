@@ -34,6 +34,13 @@ a:hover{
 	box-shadow: 5px 5px 5px #ccc;
 }
 
+.subCard{
+	margin: 15px auto 15px auto;
+	border: 1px solid #ccc;
+	padding: 20px;
+	width: 80%;
+}
+
 .paragraph{
 	padding: 8px;
 }
@@ -42,25 +49,10 @@ a:hover{
 	padding-bottom: 20px;
 }
 
-.cardLink{
-	color: black;
-	width: 103%;
-	height: 500px;
-	position: relative;
-}
-
-.cardLink img{
-	width: 100%;
-}
-
-.cardLink:hover{
-	text-decoration: none;
-	color: black;
-}
-
-.cardLink:link{
-	text-decoration: none;
-	color: black;
+.cardContent{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
 }
 
 .row{
@@ -78,6 +70,7 @@ a:hover{
 }
 
 .center{
+	display: inline-block;
 	margin-left:auto;
 	margin-right: auto;
 }
