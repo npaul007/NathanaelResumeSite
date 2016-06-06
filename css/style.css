@@ -158,6 +158,12 @@ img{
 	padding: 20px;
 }
 
+.contactIcons{
+	text-decoration: none;
+	font-size: 5em;
+	margin: 35px;
+}
+
 #icon-sql{
 	position: relative;
 	bottom: 50px;
