@@ -1,15 +1,11 @@
 $(document).ready(function(){
-	$('#sideBarMenu').css({'height':($(window).height())+'px'});
-	
 	$('#sideBarMenu').hide();
 
 	$('#menuButton').click(function(){
-		$('#sideBarMenu').slideToggle();
 		menuButtonIconStatus();
 	});
 
-	$('#sideBarMenuContents').click(function(){
-		$('#sideBarMenu').slideToggle();
+	$('#sideBarMenu').click(function(){
 		menuButtonIconStatus();
 	});
 });
@@ -18,10 +14,12 @@ function menuButtonIconStatus(){
 	if($('#menuButton').hasClass('fa-bars')){
 		$('#menuButton').removeClass('fa-bars');
 		$('#menuButton').addClass('fa-times');
+		$('#sideBarMenu').show();
 	}
 
 	else{
 		$('#menuButton').removeClass('fa-times');
 		$('#menuButton').addClass('fa-bars');
+		$('#sideBarMenu').hide();
 	}
 }
