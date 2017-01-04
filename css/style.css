@@ -401,4 +401,8 @@ img{
 		font-size: 2em;
 		float: right;
 	}
+
+	#sideBarMenu{
+		width: 65%;
+	}
 }
