@@ -401,14 +401,4 @@ img{
 		font-size: 2em;
 		float: right;
 	}
-
-	#sideBarMenu{
-		background: black;
-		color: white;
-		width: 65%;
-		padding: 10px;
-		float: right;
-		position: relative;
-		left: 82px;
-	}
 }
