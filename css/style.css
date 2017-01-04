@@ -121,14 +121,16 @@ a:hover{
 }
 
 #sideBarMenu{
-	background: #000c1a;
-	color: white;
+	background: #fff;
+	color: #000;
 	width: 40%;
-        height:120vh !important;
+    height:120vh !important;
 	padding: 10px;
 	float: right;
 	position: relative;
+	top: 8px;
 	left: 82px;
+	box-shadow: -10px 0px 10px 1px gray;
 }
 
 #sideBarMenuContents{
@@ -138,7 +140,7 @@ a:hover{
 }
 
 #sideBarMenuContents > a{
-	color: white;
+	color: black;
 	list-style-type: none;
 	padding: 2px;
 }
@@ -149,7 +151,7 @@ a:hover{
 
 #sideBarMenuContents > a > li:hover{
 	color: black;
-	background: white;
+	background: #f2f2f2;
 }
 
 img{
