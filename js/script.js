@@ -15,7 +15,12 @@ $(document).ready(function(){
 			e.target.id.length == 0)
 
 			hideMenu();
-;	});
+	});
+
+	$(window).scroll(function(){
+		$('.navbar').css('top',$(this).scrollTop());
+	});
+
 });
 
 // loading screen logic
@@ -56,7 +61,7 @@ function hideMenu(){
 	$('#sideBarMenu').addClass('slideOutRight');
 
 	setTimeout(function(){
-		$('#sideBarMenu').hide();
+		$('#sideBarMenu').fadeOut();
 	},500);
 }
 
