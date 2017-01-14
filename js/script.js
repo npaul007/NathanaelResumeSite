@@ -21,7 +21,7 @@ $(document).ready(function(){
 // loading screen logic
 window.addEventListener("load",function(){
 	setTimeout(function(){
-		$('#loadingScreen').css('display','none');
+		//$('#loadingScreen').css('display','none');
 		$('#wrapper').css('display','block');
 		$('#wrapper').addClass('fadeIn animated');
 	},400);
