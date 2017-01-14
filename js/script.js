@@ -8,9 +8,14 @@ $(document).ready(function(){
 
 	// if menu is open and you click outside of it, close it
 	$('html').click(function(e){
-		if(e.target.id != 'menuButton' || e.target.id != 'sideBarMenu>#sideBarMenuContents>a' && menuIsOpen())
+		if(e.target.id != 'menuButton' && 
+			e.target.id != 'sideBarMenu' && 
+			e.target.id != 'sideBarMenu>#sideBarMenuContents' && 
+			menuIsOpen() ||
+			e.target.id.length == 0)
+
 			hideMenu();
-	});
+;	});
 });
 
 // check to see if menu is open or not based on icon
@@ -38,6 +43,7 @@ function hideMenu(){
 	$('#sideBarMenu').hide();
 }
 
+// if menu is open return true
 function menuIsOpen(){
 	return $('#menuButton').hasClass('fa-bars');
 }
