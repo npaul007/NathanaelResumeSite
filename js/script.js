@@ -20,11 +20,9 @@ $(document).ready(function(){
 
 // loading screen logic
 window.addEventListener("load",function(){
-	setTimeout(function(){
 		//$('#loadingScreen').css('display','none');
 		$('#wrapper').css('display','block');
 		$('#wrapper').addClass('fadeIn animated');
-	},400);
 });
 
 // check to see if menu is open or not based on icon
