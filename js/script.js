@@ -56,7 +56,7 @@ function hideMenu(){
 	$('#sideBarMenu').addClass('slideOutRight');
 
 	setTimeout(function(){
-		$('#sideBarMenu').fadeOut();
+		$('#sideBarMenu').hide();
 	},500);
 }
 
