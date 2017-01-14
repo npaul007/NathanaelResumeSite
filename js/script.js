@@ -18,6 +18,11 @@ $(document).ready(function(){
 ;	});
 });
 
+window.addEventListener("load",function(){
+	$('#loadingScreen').css('display','none');
+	$('#wrapper').css('display','block');
+});
+
 // check to see if menu is open or not based on icon
 function menuButtonIconStatus(){
 	if(menuIsOpen()){
