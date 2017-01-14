@@ -18,9 +18,13 @@ $(document).ready(function(){
 ;	});
 });
 
+// loading screen logic
 window.addEventListener("load",function(){
-	$('#loadingScreen').css('display','none');
-	$('#wrapper').css('display','block');
+	setTimeout(function(){
+		$('#loadingScreen').css('display','none');
+		$('#wrapper').css('display','block');
+		$('#wrapper').addClass('fadeIn animated');
+	},1000);
 });
 
 // check to see if menu is open or not based on icon
