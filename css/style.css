@@ -131,6 +131,7 @@ a:hover{
 	top: 8px;
 	left: 82px;
 	box-shadow: -10px 0px 10px 1px gray;
+	z-index: 99 !important;
 }
 
 #sideBarMenuContents{
