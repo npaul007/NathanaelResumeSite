@@ -32,7 +32,11 @@ function showMenu(){
 	$('#menuButton').removeClass('fa-bars');
 	$('#menuButton').addClass('fa-times');
 
+	$('#sideBarMenu').removeClass('slideOutRight');
+
 	$('#sideBarMenu').show();
+
+	$('#sideBarMenu').addClass('slideInRight animated');
 }
 
 function hideMenu(){
@@ -40,7 +44,11 @@ function hideMenu(){
 	$('#menuButton').removeClass('fa-times');
 	$('#menuButton').addClass('fa-bars');
 
-	$('#sideBarMenu').hide();
+	$('#sideBarMenu').addClass('slideOutRight');
+
+	setTimeout(function(){
+		$('#sideBarMenu').fadeOut();
+	},500);
 }
 
 // if menu is open return true
