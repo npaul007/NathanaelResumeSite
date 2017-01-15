@@ -17,10 +17,6 @@ $(document).ready(function(){
 			hideMenu();
 	});
 
-	$(window).scroll(function(){
-		//$('.navbar').css('position','fixed');
-	});
-
 });
 
 // loading screen logic
