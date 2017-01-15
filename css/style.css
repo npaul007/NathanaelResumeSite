@@ -1,14 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 #wrapper{
-	overflow-x:hidden;
+
+}
+
+html, body{
+	height: 100%;
+	overflow: auto;
 }
 
 body{
 	font-family: 'Raleway',sans-serif;
 	font-size: 175%;
 	line-height: 170%;
-	overflow-x: hidden;
+
 }
 
 a{
@@ -137,7 +142,7 @@ a:hover{
 	top: 49px;
 	right: 0;
 	border-left: 2px solid gray;
-	z-index: 99 !important;
+	z-index: 100 !important;
 }
 
 #sideBarMenuContents{
