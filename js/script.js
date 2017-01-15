@@ -18,7 +18,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		$('.navbar').css('position','fixed');
+		//$('.navbar').css('position','fixed');
 	});
 
 });
