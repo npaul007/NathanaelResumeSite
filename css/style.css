@@ -1,19 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 #wrapper{
-
-}
-
-html, body{
-	height: 100%;
-	overflow: auto;
+	overflow-x:hidden;
 }
 
 body{
 	font-family: 'Raleway',sans-serif;
 	font-size: 175%;
 	line-height: 170%;
-
+	overflow-x: hidden;
 }
 
 a{
