@@ -16,15 +16,14 @@ $(document).ready(function(){
 
 			hideMenu();
 	});
-
 });
+
 
 // loading screen logic
 window.addEventListener("load",function(){
 	setTimeout(function(){
-		$('#loadingScreen').css('display','none');
+		$('#loadingScreen').addClass('hidden');
 		$('#wrapper').removeClass('hidden');
-		$('#wrapper').addClass('fadeIn animated');
 	},1000);
 });
 
