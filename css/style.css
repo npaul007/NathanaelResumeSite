@@ -4,6 +4,10 @@
 	overflow-x:hidden;
 }
 
+.custom-container{
+	padding: 0 30% 0 30%;
+}
+
 body{
 	font-family: 'Raleway',sans-serif;
 	font-size: 175%;

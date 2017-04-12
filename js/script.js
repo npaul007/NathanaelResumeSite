@@ -8,13 +8,15 @@ $(document).ready(function(){
 
 	// if menu is open and you click outside of it, close it
 	$('html').click(function(e){
-		if(e.target.id != 'menuButton' && 
-			e.target.id != 'sideBarMenu' && 
-			e.target.id != 'sideBarMenu>#sideBarMenuContents' && 
-			menuIsOpen() ||
-			e.target.id.length == 0)
+		if( e.target.id != 'menuButton' && 
+			e.target.id != 'sideBarMenu' &&
+			e.target.className != '' &&
+			e.target.id != 'sideBarMenu>#sideBarMenuContents' ||
+			e.target.className != 'sidebar-links' &&
+			menuIsOpen() )
 
 			hideMenu();
+
 	});
 });
 
