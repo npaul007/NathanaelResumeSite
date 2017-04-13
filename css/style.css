@@ -19,9 +19,21 @@ a:hover{
 	text-decoration: none;
 }
 
+.hidden{
+	display: none;
+}
+
+#myPicture{
+        height: 25%;
+	width: 25%;
+        margin-bottom:2%;
+}
+
+
+
 .cuetip-img{
-        height:60%;
-        width:60%;
+    height:60%;
+    width:60%;
 }
 
 .header{
@@ -87,8 +99,10 @@ a:hover{
 	border-bottom: 1px solid #001833;
 	padding-top: 5px;
 	color: white;
+	border-radius: 0px;
 	height: 30px;
-    /*box-shadow: 2px 2px 5px #888888;*/
+	z-index: 100 !important;
+	width: 100%;
 }
 
 .navbar-br{
@@ -121,14 +135,17 @@ a:hover{
 }
 
 #sideBarMenu{
-	background: black;
-	color: white;
+	background: #fff;
+	color: #000;
 	width: 40%;
-        height:120vh !important;
+    height:120vh !important;
 	padding: 10px;
+	position: absolute;
 	float: right;
-	position: relative;
-	left: 82px;
+	top: 49px;
+	right: 0;
+	border-left: 2px solid gray;
+	z-index: 100 !important;
 }
 
 #sideBarMenuContents{
@@ -138,7 +155,7 @@ a:hover{
 }
 
 #sideBarMenuContents > a{
-	color: white;
+	color: black;
 	list-style-type: none;
 	padding: 2px;
 }
@@ -149,7 +166,7 @@ a:hover{
 
 #sideBarMenuContents > a > li:hover{
 	color: black;
-	background: white;
+	background: #f2f2f2;
 }
 
 img{
@@ -159,34 +176,31 @@ img{
 
 #mainRow{
     background-attachment: fixed;
-	background-position: center; 
+    background-size: 100% 100%;
 	color: white;
-	height: 102vh;
-	margin-top:40px;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+
+	margin-top: 50px;
 
 	/*
 		Center Block
 	*/
-              display: flex;
-                            display: -webkit-box;
-                            display: -moz-box;
-                            
-                            display: -webkit-flex;
-                            
-                            
-                            -webkit-box-align: center;
-                            -moz-box-align: center;
-                            -webkit-align-items: center;
-                            -ms-flex-align: center;
-                             align-items: center;
-}
+	display: flex;
+	align-items: center;
 
-#myPicture{
-  	margin: 0 auto 0 auto;
-}
+	display: -webkit-box;
+	-webkit-box-align: center;
 
-.main-block{
+	display: -moz-box;
+	-moz-box-align: center;
 
+	display: -webkit-flex;
+	
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	
 }
 
 #planetRow{
@@ -205,109 +219,18 @@ img{
 }
 
 .contactIcons{
-	text-decoration: none;
-	font-size: 3em;
-        color:white;
-        background:#000c1a;
-        border-radius: 80px;
-        border:2px solid #000c1a;
-        padding:25px;
-        height:auto;
-        width:auto;
-	margin: 35px;
-}
-
-.contactIcons:active{
-        color:#000c1a;
-        background:transparent;
+    text-decoration: none;
+    font-size: 3em;
+    padding:25px;
+    height:auto;
+    width:auto;
+    margin: 35px;
 }
 
 @media screen and (min-width:960px){
-        .contactIcons:hover{
-                color:#000c1a;
-                background:transparent;
-        }
-}
-
-#icon-sql{
-	position: relative;
-	bottom: 50px;
-	margin: 60px 5px -45px 5px;
-	background: black;
-	padding: 20px;
-	display: inline-block;
-}
-
-@media screen and(max-width: 1199px){
-	#icon-sql{
-		position: relative;
-		bottom: 0px;
-		margin: 5px;
-	}
-
-}
-
-@media screen and (max-width: 1200px){
-	#icon-sql{
-		position: relative;
-		bottom: 50px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 992px){
-	#icon-sql{
-		position: relative;
-		bottom: 50px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 980px){
-	#icon-sql{
-		position: relative;
-		bottom: 0px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 766px){
-	#icon-sql{
-		position: relative;
-		bottom: 30px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 718px){
-	#icon-sql{
-		position: relative;
-		bottom: 0px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 539px){
-	#icon-sql{
-		position: relative;
-		bottom: 20px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 538px){
-	#icon-sql{
-		position: relative;
-		bottom: 18px;
-		margin: 5px;
-	}
-}
-
-@media screen and (max-width: 408px){
-	#icon-sql{
-		position: relative;
-		bottom: 0px;
-		margin: 10px;
+	.contactIcons:hover{
+		color:#000c1a;
+		background:transparent;
 	}
 }
 
@@ -339,24 +262,44 @@ img{
 	margin-bottom:38px;
 }
 
+@media screen and (max-width: 990px){
+
+        #experienceAndEducation{
+                 margin-top:-80px;
+        }
+	#mainRow{
+		color: white;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		padding: 40px 20px 20px 20px;
+		top: -55px;
+	}
+
+	#aboutMe{
+		position: relative;
+		top:-90px;
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+        #myPicture{
+                width:350px;
+                height:300px;
+        }
+ }
+
 @media screen and (max-width: 980px){
+        
 	#myName{
 		font-size: 2em;
 	}
 
 	#myQuote{
 		font-size: 1em;
-	}
-
-	#mainRow{
-	    background-attachment: fixed;
-		background-position: center; 
-		color: white;
-		height: 100%;
-	}
-
-	#myPicture{
-		margin: 0 auto 0 auto;
 	}
 
 	#aboutMePar{
@@ -375,12 +318,12 @@ img{
 		height: 60%;
 	}
         
-        .contactIcons{
-                display:block;
-                width:125px;
-                margin-left:auto;
-                margin-right:auto;
-        }
+    .contactIcons{
+        display:block;
+        width:125px;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -401,12 +344,21 @@ img{
 	}
 
 	#sideBarMenu{
-		background: black;
-		color: white;
 		width: 65%;
-		padding: 10px;
-		float: right;
-		position: relative;
-		left: 82px;
 	}
+}
+
+#loader{
+	border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20% auto 0 auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
