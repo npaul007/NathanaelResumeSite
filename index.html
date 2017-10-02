@@ -24,7 +24,9 @@
   </head>
   <body>
     <div id="loadingScreen">
-      <div id="loader"></div> 
+      <div id="loading-block">
+        <img class="center" src="css/image/loading.gif" alt="">
+      </div> 
     </div>
 
     <div id="wrapper" class="hidden">
@@ -46,33 +48,35 @@
         </div>
       </nav>
 
-      <div id="mainRow" style="background-image:url(css/image/nebula.jpg)">
-          <div class="col-md-12">
-            <div>
-            <img src="css/image/mypic.png" class="img-responsive img-circle" id="myPicture"/>
-            <div id="sectionHeader">
-              <h2 class="center-text" id="myName"><strong>Nate Paulemon</strong></h2>
-              <h5 class="center-text" id="myQuote">"Let me see the meat and potatoes; the code!"</h5>
-            </div>
-            </div>
-          </div>
-      </div>
-
       <div class="row" id="aboutMe">
+        <br/>
         <div class="container card">
-          <header>
-             <h1 class="center-text header"><strong>About Me</strong></h1>
-          </header>
-          <article>
-            <p class="center" style="margin-top:10px;">I am an aspiring software developer currently studying Computer Science. Before I had decided to choose Computer Science as my major, the idea of being a Software Engineer seemed very boring to me. It was only until I opened my eyes that I realized that software has an impact on everything in our society today, that I fell in love with this career path. Software Engineering allows people to make a huge difference in the world, at the press of a button. Because of this fact, I want to use this outlet in order to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</p>
-          </article>
+          <div class="col-md-3">
+            <br/>
+            <img src="css/image/mypic.png" class="img-responsive"/>
+            <br/>
+            <div class="">
+              <a style="font-size:1.5em; margin:2%;" href="https://github.com/npaul007" target="_blank"><i class="fa fa-github "></i></a>
+              <a style="font-size:1.5em; margin:2%;" href="mailto:npaulemon@gmail.com"><i class="fa fa-envelope-o "></i></a>
+              <a style="font-size:1.5em; margin:2%;" href="https://www.linkedin.com/in/nathanael-paulemon-aa432411b?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin "></i></a>
+            </div>
+            <br/>
+          </div>
+          <div class="col-md-9">
+            <header>
+               <h1 class=" header"><strong>About Me</strong></h1>
+            </header>
+            <article>
+              <p class="center" style="margin-top:10px;">I am an aspiring software developer currently studying Computer Science. Before I had decided to choose Computer Science as my major, the idea of being a Software Engineer seemed very boring to me. It was only until I opened my eyes that I realized that software has an impact on everything in our society today, that I fell in love with this career path. Software Engineering allows people to make a huge difference in the world, at the press of a button. Because of this fact, I want to use this outlet in order to help improve the quality of life of every individual alive, and to ultimately make the world a better place.</p>
+            </article>
+          </div>
         </div>
       </div>
 
       <div class="row" id="experienceAndEducation">
         <div class="container card">
          <header>
-            <h1 class="center-text header"><strong>Experience and Education</strong></h1>
+            <h1 class=" header"><strong>Experience and Education</strong></h1>
          </header>
 
          <div class="row">
@@ -119,12 +123,12 @@
       <div class="row" id="skills">
         <div class="container card">
           <header>
-            <h1 class="center-text header"><strong>Skills</strong></h1>
+            <h1 class=" header"><strong>Skills</strong></h1>
           </header>
           <div class="col-md-12">
             <div>
-              <h3 class="center-text skillHeader">Programming Languages</h3>
-              <div class="center-text">
+              <h3 class=" skillHeader">Programming Languages</h3>
+              <div class="">
                <i class="devicon-javascript-plain icon colored"></i>
                <i class="devicon-java-plain-wordmark icon colored"></i>
                <i class="devicon-php-plain icon colored"></i>
@@ -134,8 +138,8 @@
               </div>
             </div>
             <div>
-              <h3 class="center-text skillHeader">Markup Languages and Libraries</h3>
-              <div class="center-text">
+              <h3 class=" skillHeader">Markup Languages and Libraries</h3>
+              <div class="">
                <i class="devicon-html5-plain-wordmark icon colored"></i>
                <i class="devicon-css3-plain-wordmark icon colored"></i>
                <i class="devicon-bootstrap-plain-wordmark icon colored"></i>
@@ -143,14 +147,15 @@
               </div>
             </div>
             <div>
-              <h3 class="center-text skillHeader">Technologies</h3>
-              <div class="center-text">
+              <h3 class=" skillHeader">Technologies</h3>
+              <div class="">
                <i class="devicon-git-plain-wordmark icon colored"></i>
                <i class="devicon-mongodb-plain-wordmark icon colored"></i>
                <i class="devicon-meteor-plain-wordmark icon colored"></i>
                <i class="devicon-nodejs-plain-wordmark icon colored"></i>
                <i class="devicon-mysql-plain-wordmark icon colored"></i>
                <i class="devicon-react-original-wordmark icon colored"></i>
+               <i class="devicon-angularjs-plain-wordmark icon colored"></i>
               </div>
             </div>
           </div>
@@ -160,7 +165,7 @@
       <div class="row" id="portfolio">
         <div class="container card">
           <header>
-            <h1 class="center-text header"><strong>Portfolio</strong></h1>
+            <h1 class=" header"><strong>Portfolio</strong></h1>
           </header>
 
           <div class="row">
@@ -192,25 +197,28 @@
               <img src="css/image/Screenshot_2016-11-30-13-18-51.png" class="img-responsive cuetip-img" alt="">
             </div>
           </div>
-       </div>
-      </div>
 
-      <div class="row" id="contactRow">
-        <div class="container card">
-          <header>
-            <h1 class="center-text header"><strong>Like what you see? Contact Me!</strong></h1>
-          </header>
-          <br/>
-          <article>
-            <div class="center-text">
-              <a style="font-size:4em; margin:20px;" href="https://github.com/npaul007" target="_blank"><i class="fa fa-github "></i></a>
-              <a style="font-size:4em; margin:20px;" href="mailto:npaulemon@gmail.com"><i class="fa fa-envelope-o "></i></a>
-              <a style="font-size:4em; margin:20px;" href="https://www.linkedin.com/in/nathanael-paulemon-aa432411b?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin "></i></a>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="css/image/lebruns.png" class="img-responsive" alt="">
             </div>
-            <br/>
-            <p class="center-text">email:<a href="mailto:npaulemon@gmail.com">npaulemon@gmail.com</a></p>
-          </article>
-        </div>
+            <div class="col-md-6">
+              <h2>acplumbingmasters.com</h2>
+              <a href="http://acplumbingmasters.com/" target="_blank"><h3>Live Demo</h3></a>
+              <p>Acplumbingmasters is a site I built for a small business owner based in Maryland.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img style="border:1px solid #ccc" src="css/image/fooBlog.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-md-6">
+              <h2>fooBlog</h2>
+              <a href="https://foomanblog.herokuapp.com/" target="_blank"><h3>Live Demo</h3></a>
+               <p>Simple blog App built using the M.E.A.N stack.</p>
+            </div>
+          </div>
+       </div>
       </div>
 
       <div class="row footer">

@@ -13,10 +13,9 @@ $(document).ready(function(){
 			e.target.className != '' &&
 			e.target.id != 'sideBarMenu>#sideBarMenuContents' ||
 			e.target.className != 'sidebar-links' &&
-			menuIsOpen() )
-
+			menuIsOpen()
+		)
 			hideMenu();
-
 	});
 });
 
@@ -25,6 +24,7 @@ window.addEventListener("load",function(){
 	setTimeout(function(){
 		$('#loadingScreen').addClass('hidden');
 		$('#wrapper').removeClass('hidden');
+		$('body').addClass('fadeIn animated');
 	},1000);
 });
 
