@@ -7,15 +7,8 @@ $(document).ready(function(){
 	});
 
 	// if menu is open and you click outside of it, close it
-	$('html').click(function(e){
-		if( e.target.id != 'menuButton' && 
-			e.target.id != 'sideBarMenu' &&
-			e.target.className != '' &&
-			e.target.id != 'sideBarMenu>#sideBarMenuContents' ||
-			e.target.className != 'sidebar-links' &&
-			menuIsOpen()
-		)
-			hideMenu();
+	$('.excluded').click(function(){
+		hideMenu();
 	});
 });
 
@@ -30,29 +23,18 @@ window.addEventListener("load",function(){
 
 // check to see if menu is open or not based on icon
 function menuButtonIconStatus(){
-	if(menuIsOpen()){
-		showMenu();
-	}else{
-		hideMenu();
-	}
+	(menuIsOpen()) ? showMenu() : hideMenu();
 }
 
 function showMenu(){
 	// if closed show x
-	$('#menuButton').removeClass('fa-bars');
-	$('#menuButton').addClass('fa-times');
-
-	$('#sideBarMenu').removeClass('slideOutRight');
-
-	$('#sideBarMenu').show();
-
-	$('#sideBarMenu').addClass('slideInRight animated');
+	$('#menuButton').removeClass('fa-bars').addClass('fa-times');
+	$('#sideBarMenu').removeClass('slideOutRight').show().addClass('slideInRight animated');
 }
 
 function hideMenu(){
 	// if open show bars
-	$('#menuButton').removeClass('fa-times');
-	$('#menuButton').addClass('fa-bars');
+	$('#menuButton').removeClass('fa-times').addClass('fa-bars');
 
 	$('#sideBarMenu').addClass('slideOutRight');
 
