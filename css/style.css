@@ -2,7 +2,7 @@
 #portrait-landing{
     background-size: 100% 100%;
     color: white;
-    font-size: 80%;
+    font-size: 2vh;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -73,8 +73,8 @@ a:hover{
 }
 
 .navbar{
-	background: #000c1a;
-	border-bottom: 1px solid #001833;
+	background: #000;
+	border-bottom: 1px solid #000;
 	padding-top: 5px;
 	color: white;
 	border-radius: 0px;
@@ -97,8 +97,8 @@ a:hover{
 }
 
 .footer{
-	background: #000c1a;
-	border-bottom: 1px solid #001833;
+	background:  #000;
+	border-bottom: 1px solid  #000;
 	color: white;
 	padding: 25px;
 }
