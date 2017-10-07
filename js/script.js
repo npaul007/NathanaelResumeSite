@@ -1,19 +1,12 @@
 $(document).ready(function(){
-	//hide menu on pageload
-	hideMenu();
-
-	$('#menuButton, #sideBarMenu>#sideBarMenuContents>a').click(function(){
-		menuButtonIconStatus();
-	});
-
-	// if menu is open and you click outside of it, close it
-	$('.excluded').click(function(){
-		hideMenu();
-	});
+	$('#menuButton, #sideBarMenu>#sideBarMenuContents>a').click(function(){menuButtonIconStatus()});
+	$('.excluded').click(function(){hideMenu()});
 });
 
 // loading screen logic
 window.addEventListener("load",function(){
+	hideMenu();
+
 	setTimeout(function(){
 		$('#loadingScreen').addClass('hidden');
 		$('#wrapper').removeClass('hidden');
