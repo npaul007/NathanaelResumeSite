@@ -24,6 +24,12 @@
 	text-shadow: 4px 4px 4px #000;
 }
 
+#experienceAndEducation img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .icon {
     font-size: 800%;
     display: inline-block;
@@ -33,7 +39,7 @@
 }
 
 body{
-	font-family: calibri, serif;
+	font-family: sans-serif;
 	font-size: 175%;
 	line-height: 170%;
 	overflow-x: hidden;

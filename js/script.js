@@ -21,13 +21,13 @@ function menuButtonIconStatus(){
 
 function showMenu(){
 	// if closed show x
-	$('#menuButton').removeClass('fa-bars').addClass('fa-times');
+	$('#menuButton').removeClass('fa-bars').addClass('fa-times rotateIn animated');
 	$('#sideBarMenu').removeClass('slideOutRight').show().addClass('slideInRight animated');
 }
 
 function hideMenu(){
 	// if open show bars
-	$('#menuButton').removeClass('fa-times').addClass('fa-bars');
+	$('#menuButton').removeClass('fa-times rotateIn').addClass('fa-bars');
 
 	$('#sideBarMenu').addClass('slideOutRight');
 
