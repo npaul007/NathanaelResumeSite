@@ -1,3 +1,12 @@
+.container{
+	padding: 15px;
+}
+
+.border{
+	margin: 20px 0px 20px 0px;
+	border-top: 1px solid #ccc;
+}
+
 #portrait-landing{
     background-size: 100% 100%;
     color: white;
@@ -39,7 +48,7 @@
 }
 
 body{
-	font-family: sans-serif;
+	font-family: serif;
 	font-size: 175%;
 	line-height: 170%;
 	overflow-x: hidden;
