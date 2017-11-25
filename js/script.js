@@ -1,19 +1,3 @@
-$(document).ready(function(){
-	$('#menuButton, #sideBarMenu>#sideBarMenuContents>a').click(function(){menuButtonIconStatus()});
-	$('.excluded').click(function(){hideMenu()});
-});
-
-// loading screen logic
-window.addEventListener("load",function(){
-	hideMenu();
-
-	setTimeout(function(){
-		$('#loadingScreen').addClass('hidden');
-		$('#wrapper').removeClass('hidden');
-		$('body').addClass('fadeIn animated');
-	},1000);
-});
-
 // check to see if menu is open or not based on icon
 function menuButtonIconStatus(){
 	(menuIsOpen()) ? showMenu() : hideMenu();
@@ -31,12 +15,26 @@ function hideMenu(){
 
 	$('#sideBarMenu').addClass('slideOutRight');
 
-	setTimeout(function(){
-		$('#sideBarMenu').fadeOut();
-	},500);
+	setTimeout(function(){$('#sideBarMenu').fadeOut()},500);
 }
 
 // if menu is open return true
 function menuIsOpen(){
 	return $('#menuButton').hasClass('fa-bars');
 }
+
+$(document).ready(function(){
+	$('#menuButton, #sideBarMenu > #sideBarMenuContents >a').click(function(){menuButtonIconStatus()});
+	$('.excluded').click(function(){hideMenu()});
+});
+
+// loading screen logic
+window.addEventListener("load",function(){
+	hideMenu();
+
+	setTimeout(function(){
+		$('#loadingScreen').addClass('hidden');
+		$('#wrapper').removeClass('hidden');
+		$('body').addClass('fadeIn animated');
+	},250);
+});
