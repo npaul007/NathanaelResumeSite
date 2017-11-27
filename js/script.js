@@ -24,7 +24,7 @@ function menuIsOpen(){
 }
 
 $(document).ready(function(){
-	$('#menuButton, #sideBarMenu > #sideBarMenuContents >a').click(function(){menuButtonIconStatus()});
+	$('#menuButton, #sideBarMenu > #sideBarMenuContents > a').click(function(){menuButtonIconStatus()});
 	$('.excluded').click(function(){hideMenu()});
 });
 
