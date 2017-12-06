@@ -15,7 +15,9 @@ function hideMenu(){
 
 	$('#sideBarMenu').addClass('slideOutRight');
 
-	setTimeout(function(){$('#sideBarMenu').fadeOut()},500);
+	setTimeout(function(){
+		$('#sideBarMenu').fadeOut();
+	},500);
 }
 
 // if menu is open return true
@@ -24,8 +26,13 @@ function menuIsOpen(){
 }
 
 $(document).ready(function(){
-	$('#menuButton, #sideBarMenu > #sideBarMenuContents > a').click(function(){menuButtonIconStatus()});
-	$('.excluded').click(function(){hideMenu()});
+	$('#menuButton, #sideBarMenu > #sideBarMenuContents > a').click(function(){
+		menuButtonIconStatus();
+	});
+
+	$('.excluded').click(function(){
+		hideMenu();
+	});
 });
 
 // loading screen logic

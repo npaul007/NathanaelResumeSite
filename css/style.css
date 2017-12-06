@@ -33,6 +33,56 @@
 	text-shadow: 4px 4px 4px #000;
 }
 
+@media screen and (max-width: 1070px){
+	#portrait-landing{
+		height: 550px;
+	}
+}
+
+@media screen and (max-width: 925px){
+	#portrait-landing{
+		height: 450px;
+	}
+
+	#portrait-landing-title{
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 760px){
+	#portrait-landing{
+		height: 400px;
+	}
+
+	#portrait-landing-title{
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#portrait-landing{
+		height: 300px;
+	}
+
+	#portrait-landing-title{
+		font-size: 2em;
+		position: relative;
+		top: 30%;
+	}
+}
+
+@media screen and (max-width: 440px){
+	#portrait-landing{
+		height: 200px;
+	}
+
+	#portrait-landing-title{
+		font-size: 2em;
+		position: relative;
+		top: 30%;
+	}
+}
+
 #experienceAndEducation img{
 	display: block;
 	margin-left: auto;
